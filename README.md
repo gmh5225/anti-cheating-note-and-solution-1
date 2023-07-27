@@ -1,1 +1,1 @@
-https://michaelandrefraniatte.github.io
+https://michaelandrefraniatte.github.io/anti-cheating-note-and-solution
