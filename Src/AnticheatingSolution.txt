@@ -1,0 +1,580 @@
+﻿- Press shift and click at same time on restart to refresh your PC from factory
+- Don't wire ethernet and disable every features when you refreshing your PC
+- Set your prefered screen color for desktop and task bar
+- Disable features of task bar and notifications
+- Disable sleep mode when you don't touch your PC
+- Set to higher level UAC (User Account Control) from control panel
+- Uninstall all programs but let ethernet card drivers, audio and video drivers (Nvidia audio and graphic drivers)
+- Disable all functionnalites but let frameworks 3.5 and 4.2 under programs and functionnalities
+- Uninstall all redistributable packages and install redistributable packages found on Microsoft official website
+- Set parameter for better performance and disable remote connection from advanced system under control panel
+- Delete C:\Windows\System32\wlanext.exe, C:\Windows\System32\ibtsiva.exe, and C:\Program Files\Intel\WiFi (dllhost), and use ethernet wire
+- Use wired ethernet for your gaming PC and use Wi-Fi with MAC filter for your other devices
+- It's better to use only Ethernet card with a RJ45 wire connected to your modem, setting network public instead of private, and uninstall from programs and functionnalities under control panel, the Wi-Fi framework, but let Ethernet framework
+- Change often MAC network adress of your ethernet network card because there's spoofing of IP of official server due to MAC address hashing table hacked from network routers between your rooter and official servers, but if you using Wi-Fi and MAC address filtering under your modem settings it's boring
+- Change MAC adress of your PC often from Ethernet network card properties
+- Set your network to private and with only Ethernet, no Wi-Fi
+- Disable from task manager all the programs starting automatically at PC start
+- Install your prefered launcher, downloaded from edge, for downloading and playing your prefered games, i.e. battle.net
+- Repair files often from your prefered launcher and set automatically close launcher when game starts
+- Change your PC internal IP in IPv4 properties when you can't connect into the games
+- Revert all advanced settings of network card, and change often ethernet network card MAC address with always same two first numbers corresponding to label of your card constructor
+- Report and block every cheaters under social tab of CoD
+- Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell, conhost, ShellExperienceHost to exploit protection with all features enable
+- Enable all security features from Windows security under Windows parameters, like node isolation, security against ransomeware adding all disks (C:/ and D:/), exploit protection, etc
+- Set better graphic performance option for your game from display properties under graphic parameters
+- Delete all tasks under task scheduler from administrative tools in control panel
+- Set modem/router firewall to allow all ports for your gaming PC but only port 80 and 443 in TCP for your other devices
+- Disable UpNp and IPv6 on your modem/router under network tab
+- Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU because of my games crashing after update
+- Use Windows firewall rules, exploit protection and folder access as anti-cheats
+- For each Windows application, go to parameters of it by clicking right on it and disable background running
+- Disable all ethernet network card features from properties and let only Ipv4 installed from network properties
+- Enable all exploit protection for default system settings under protection tools from Windows parameters
+- Shut down execution of unwanted applications using exploit protection but not those essentials
+- Add your games and applications for access folders (D:/, C:/) you protected when using protection against ransomware
+- Norton 360 gaming is useless for optimization and/or security
+- Update your Windows PC and repair install if not want updating (Windows10Upgrade9252.exe)
+- With Logi (Logitech) Z207 Stereo, and 2 PC, one connecting with bluetooth, the other with jack wire, it's possible to listen music while playing games
+- For better sound quality listening music, choose to tweeck audio settings in integrated equalizer like with audio control on HP computers, and also to use wired jack for looseless audio packets and no arsen in your hears (bluetooth is annoying for that), disable microphone and stereo mixer under sound properties, and shut down system sound from mixer
+- Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
+- Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
+- Set your screen native resolution for your game in your game graphic options
+- Run the following command in cmd dos with administrative privilege to increase the limit of paged pool memory size, fsutil behavior set memoryusage 2
+- Open cmd prompt command and type ipconfig/flushdns
+- Uninstall programs if it eats memory, then reinstall it with last installer, if you use it
+- Delete everything in %temp% folder, even masked elements
+- Delete the maxinmum of useless things in folders %programfiles(x86)%, %programdata%, %localappdata%, %appdata%
+- Clean the disks from administrative tools under control panel
+- Launch repair tool when restarting pressing shift key with click on restart
+- Launch battle.net, your games and applications without administrative privilege
+- Set IPv4 properties to default under network properties, and set Windows firewall rules to default for resolving your internal IP, then import your rules again if you have an issue for connecting in CoD
+- Delete call of duty game folder under documents, sometimes when your game is open (use Alt+F4, Alt+Enter is to switch fullscreen/windowed)
+- You can block ransomeware by blocking start of some exe with exploit protection settings to all enable
+- Whitelist against ransomeware to not block :
+BlackOpsColdWar.exe
+ModernWarfare.exe
+cod.exe
+Battle.net.exe
+Battle.net Launcher.exe
+mmc.exe
+Agent.exe
+TextEditor.exe
+Taskmgr.exe
+perfmon.exe
+csrss.exe
+dwm.exe
+explorer.exe
+lsass.exe
+ntoskrnl.exe
+RtkAudUService64.exe
+audiodg.exe
+smss.exe
+svchost.exe
+consent.exe
+conhost.exe
+webViewer.exe
+smartscreen.exe
+rundll32.exe
+fontdrvhost.exe
+jhi_service.exe
+NisSrv.exe
+NVDisplay.Container.exe
+SecurityHealthService.exe
+services.exe
+SgrmBroker.exe
+sihost.exe
+TPMProvisioningService.exe
+wininit.exe
+winlogon.exe
+StartMenuExperienceHost.exe
+MsMpEng.exe
+ApplicationFrameHost.exe
+wlanext.exe
+WmiApSrv.exe
+SIHClient.exe
+RuntimeBroker.exe
+- Blacklist against ransomeware to block :
+dllhost.exe
+gamingservices.exe
+gamingservicesnet.exe
+MicrosoftEdgeUpdate.exe
+msedgewebview2.exe
+msedge.exe
+Microsoft.Photos.exe
+PhoneExperienceHost.exe
+SearchHost.exe
+SearchApp.exe
+WMIADAP.exe
+WMIC.exe
+Widgets.exe
+GameBarPresenceWriter.exe
+GameBarFTServer.exe
+GameBar.exe
+dxgiadaptercache.exe
+UserOOBEBroker.exe
+backgroundTaskHost.exe
+taskhostw.exe
+ShellExperienceHost.exe
+DsmUserTask.exe
+- Disable useless services (all intel services) under administrative tools from control panel
+- Windows services to let (in french) :
+Informations d’application
+Service de profil utilisateur
+Générateur de point de terminaison du service audio Windows
+Audio Windows
+Moteur de filtrage de base
+Service de prise en charge bluetooth
+Service de chiffrement
+Client DHCP
+Client DNS
+Journal d’événement Windows 
+Service de stratégie de diagnostic
+Service d'association de périphérique
+Gestionnaire d'installation de periphérique
+Détection materiel noyau
+Plug-and-Play
+Client de stratégie de groupe
+Planificateur de classe multimédia
+Windows installer
+Netlogon
+Connexions réseau 
+Service Interface du magasin réseau
+Alimentation
+Mappeur de point de terminaison
+Planificateur de taches
+Service client steam
+Sauvegarde Windows
+Service ouverture de session locale
+Service de découverte automatique de Proxy Web pour les services HTTP Windows
+Service de moteur de sauvegarde en mode bloc
+Security services as Windows firewall
+- FreePlay is made for playing games blocking all suspect IP, so fake servers
+- It's possible to check the effect with perfmon
+- It blocks using Window firewall
+- The file domain.txt is for allowing domains
+- Each line in file domain.txt must contain two parts of a domain name, separate with a space, for allowing it
+- All domains not in file domain.txt are blocked
+- Noobs and cheaters will not see the effect using it
+- Cheaters will not be able to find a match using it
+- It's a big energy saver (70%) for all peipherals connected to your PC using it, and so increasing lifetime of your PC
+- For repair Windows Update not able to find updates, or for repair sales in Fortnite, you need to disable protected folders under security parameters, and also exploit protection for dllhost.exe, ShellExperienceHost and UserOOBEBroker.exe
+- Update often your PC with Windows Update, choosing global updates, but also facultative updates for driver updates, like BIOS, under Windows parameters, and from advanced options, under third party driver updates
+- You can delete a service with cmd dos prompt command run with administrative privilege using the command : sc delete "servicename", and delete a folder with : rmdir /s "foldername", and also delete a file with : del /f "filename"
+- You can set with cmd.exe your IPv4 properties as following:
+netsh interface ipv4 show config
+netsh interface ipv4 set address name="Wi-Fi" static 192.168.1.8 255.255.255.0 192.168.1.1
+netsh interface ipv4 set dns name="Wi-Fi" static 8.8.8.8
+netsh interface ipv4 set dns name="Wi-Fi" static 8.8.4.4 index=2
+- Change your modem Dhcp config for set internal IP of buisness like, i.e. 10.0.0.1, and then in cmd.exe type as following:
+ipconfig/release
+ipconfig/renew
+- Try to use cloudflare as DNS with server IP 1.1.1.1, or 1.0.0.1
+- List of DNS you can use to try
+quad9 9.9.9.9, 149.112.112.112
+cloudflare 1.1.1.1, 1.0.0.1
+Verisign DNS 64.6.64.6, 64.6.65.6
+Google DNS 8.8.8.8, 8.8.4.4
+DNSWatch 84.200.69.80, 84.200.70.40
+AdGuard DNS 176.103.130.130, 176.103.130.131
+Dyn Internet Guide 216.146.35.35, 216.146.36.36252
+FDN 80.67.169.12, 80.67.169.40
+Freenom World 80.80.80.80, 80.80.81.81
+FreeDNS 37.235.1.174, 37.235.1.177
+Neustar DNS service 156.154.70.4, 156.154.71.4
+SafeDNS 195.46.39.39, 195.46.39.40
+SmartViper Public DNS 208.76.50.50, 208.76.51.51
+YandexDNS 77.88.8.7, 77.88.8.3
+CleanBrowsing 185.228.168.9, 185.228.169.9
+CenturyLink 4.2.2.1, 4.2.2.2, 4.2.2.3, 4.2.2.4
+NextDNS.io 45.90.28.218, 45.90.30.218
+- Change often of DNS server or use only DNS server of your ISP
+- Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
+- Exploit Protection Settings Easy Anti Cheat - Epic Games Launcher - Battle.net - WmiPrvSE
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Désactivé
+Exporter le filtrage d'adresses -> Désactivé; Valider l'accès à des modules qui sont couramment attaqués -> Désactivé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Activé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Activé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Désactivé
+Valider les chaînes d'exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Activé
+- Exploit Protection Settings svchost
+Protection arbitraire du code -> Désactivé*; Autoriser la désinscription du thread -> Désactivé*
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé*; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé*
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé*
+Prévention de l'éxécution des données (PED) -> Activé*; Activer l'émulation thunk ATL -> Activé*
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé*
+Ne pas autoriser les processus enfants -> Désactivé*
+Exporter le filtrage d'adresses -> Désactivé*; Valider l'accès à des modules qui sont couramment attaqués -> Désactivé*
+Forcer la randomisation des images -> Activé*; Ne pas autoriser les images rayées -> Activé*
+Protection des piles appliquée par le matériel -> Activé*; Applicable à tous les modules -> Activé*
+Importer le filtrage d'adresses -> Activé
+Allocations de mémoire aléatoires -> Activé*; N'utilisez pas l'entropie élevée -> Désactivé*
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Désactivé*
+Valider les chaînes d'exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Activé
+(*) Approuved, otherwise not tested
+- Exploit Protection Settings All
+Prévention de l'éxécution des données (PED) -> Activé*; Activer l'émulation thunk ATL -> Activé*
+Forcer la randomisation des images -> Activé*; Ne pas autoriser les images rayées -> Activé*
+Protection des piles appliquée par le matériel -> Activé*; Applicable à tous les modules -> Activé*
+Allocations de mémoire aléatoires -> Activé*; N'utilisez pas l'entropie élevée -> Désactivé*
+(*) Approuved, otherwise not tested
+- Exploit Protection Settings Fortnite
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Activé (V-Bucks -> Désactivé)
+Exporter le filtrage d'adresses -> Désactivé; Valider l'accès à des modules qui sont couramment attaqués -> Désactivé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Activé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Désactivé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Activé
+Valider les chaînes d'exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Désactivé
+- Exploit Protection Settings Battlefield V
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Activé
+Exporter le filtrage d'adresses -> Activé; Valider l'accès à des modules qui sont couramment attaqués -> Activé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Désactivé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Activé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Activé
+Valider les chaînes d'exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Activé
+- Exploit Protection Settings Apex Legends 
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Activé
+Exporter le filtrage d'adresses -> Activé; Valider l'accès à des modules qui sont couramment attaqués -> Activé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Désactivé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Activé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Activé
+Valider les chaînes d'exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Activé
+- Exploit Protection Settings Call of Duty
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Activé (Ricochet -> Désactivé)
+Exporter le filtrage d'adresses -> Désactivé; Valider l'accès à des modules qui sont couramment attaqués -> Désactivé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Activé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Désactivé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Activé
+Valider les chaînes d'exception -> Activé
+Valider l'utilisation de la poignée -> Désactivé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Désactivé
+- For better audio quality in your ears, under properties of audio peripherals, prefer the lowest quality (16 bits, CD, half grunge, half punk, but more fluids, and fitted sounds less tiring your ears) for your audio output peripheral and also disable all features like spatial sound, and use the tool for set your earphones asking you to test audio
+- Saving your games you add from Xbox application on a SSD needs it be formatted in NTFS format
+- Disable options of applications from Windows parameters, don't let it execute in background
+- In CoD, set group to private, check file modification like telescopeCache\telescope_index.dat or xpak_cache\xpak_settings.bin or main\toc1.dcache or .build.info or Launcher.exe, but start again battle.net setup before, check integrity of files after removing these files
+- Enhance CoD game settings with the dedicated file named adv_options.ini
+- If you can't update your games, you need to enter the following commands in cmd prompt run with administrative privilege, 
+net stop winmgmt
+winmgmt /resetrepository
+net start winmgmt
+- And also delete the following folders
+In %programdata% delete the Battle.net and Blizzard Entertainment folders
+In %appdata% delete the Battle.net folder
+In %localappdata% delete the battle.net and Blizzard Entertainment folders
+- Finally uninstall and reinstall battle.net, copy your game files, uninstall the game, format your SSD with default settings, and copy again your game files, and then reinstall your game by locate game files, or simply, uninstall the game, and reinstall it disabling auto update, enabling english language, and make a copy of fresh files
+- Remove cheaters you blocked after your list is full, then you can add again the new cheaters, for having true gamers in your matches and not be harrassed everytime by these jerks
+- Set battle.net to quit when launching a game, and make manually update of your game and launch it after that without firewall blocking rules for both, taking care to not break the game files to not have to redownload it
+- Disable voice tchat, disable text tchat, disable all graphic feature, disable lightness, but enable your best and fuck the rest
+- If you have a bad connection for your matches and it's fill with cheaters, prefer in it less players as possible
+- Every free drivers of any kind, not comming with your OS, and every free programs you download on internet have or are viruses
+- You can repair your PC with cmd dos prompt command run with administrative privilege typing both commands: sfc /scannow, DISM /Online /Cleanup-Image /ScanHealth
+- You can repair Windows Security with powershell run with administrative privilege typing command: Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
+- Game in fullscreen is running better than windowed or fullscreen without border
+- Prefer install your favorite multiplayer games under C:/program files (x86) folder for better performance
+- Prefer install your favorite multiplayer game under the drive where your OS is installed for better performances, also don't let useless disks installed to set under disk manager from computer manager in administrative tools
+- Disable and lower everything for Ethernet network card settings from advanced options under configuration
+- Your FPS but also your ping in multiplayer games depends on health of your PC, ping is a better indicator than FPS
+- Each time, there's an update of your game under battle.net, quit battle.net until there's no more update of your game
+- Enabling UAC to highest level is allowing to know if battle.net is launched as admin and so games, and so restart battle.net until it's not running as admin
+- It's better to restore your PC from fresh often than trying to repair with strange programs, you just have to keep your game files on a external disk
+- For better performances, keep enable the service SysMain, before named perfetch
+- Remove all tasks from task scheduller in Windows tools (administrative tools) under control panel
+- Prefer to upgrade to last Windows OS, it's always more optimized and better performances
+- Disable every features and deny every applications to run in background from Windows parameters, but let parameters for bluetooth and sound from dedicated tabs, not from Windows parameters, where you can disable everything
+- Prefer to update drivers using peipheral manager under control panel
+- Remove every tasks in task scheduler from administrative tools (Windows tools) under control panel
+- To avoid input lags or desktop freeze, take care to not having useless hidden drivers from peripheral manager, under control panel, otherwise remove all of it
+- From folder explorer search, remove all folders and files, even hidden, packages, .vs, .git, .gitattributes
+- Prefer to let distant port 443 (https) for all programs in modem and Windows firewall, in order Windows update slice to secure download instead of unsecure with port 80 (http)
+- Don't allow SSID of your modem to be discover, and set allow to connect to network if the SSID is not in discovering mode, from IPv4 network connection properties under network center and sharing under control panel
+- For better performances, run the following command in cmd dos with administrative privilege to increase the limit of paged pool memory size, fsutil behavior set memoryusage 2
+- For some reasons, like hackers and haters are targeting you, using a VPN is better than using firewalls, but some settings are required, let the services running like SSDP service, Telephonic service, and Telephony, NetBios service, set to default properties of IPv4 from network card, and all services installed of network card, and set to default Windows and modem firewall
+- You can compare Windows integrated VPN with vpnbook p2p servers (not servers optimized for the web), WTFast and ExitLag... For using it on consoles, you can share connection from a PC using it, wired with a RJ-45 cable
+- You have less issue on your PC if you set cloudflare DNS client server (1.1.1.1)
+- You have less bad lobbies in CoD by not insulting people
+- With Windows 11 OS, you have to register your session with a Microsoft account, but after it you can add a local user with a password, and set a local account for open your session, but if you refresh from factory your PC, this setting stay when you choose to keep files
+- Set security and confidentiality on Edge settings to maximum levels of security for each of parameter, and also under edge://settings/system you need to disable everything, particularly the parameter of material acceleration, for be able to watch movies on Netflix
+- If you can't launch some games, it's probably because Windows Defender Diagnosis is set to required, blocking some game files
+- Using invasive programs on a lowend PC is destroying it, it's the case with programs for recording or streaming, even with anti-virus, be sure of the sources before using unknown programs
+- If you think you are shadowban in CoD, it's probably hackers triggered it with game config files changing it, so delete it and make again your game config, even reinstall CoD for prevent it and be sure there's no trace remaining, you can check if you are shadow banned in Call of Duty with the link: https://support.activision.com/ban-appeal
+- Cheat program used by cheaters have hacks exploiting vulnerabilities for always forward good and fair players in hacked lobbies, vulnerabilities also destroy your PC
+- If you are forwarded in same match after leaving one, or with same cheaters, you are forwarded in hacked lobbies, I've tried everything for Call of Duty, there's nothing running
+- I advice to block exe against ransomeware, like explain before, and to use StopIt while playing competitive for stoping exe that can't be blocked against ransomeware, your gameplay is more fluid like this and you don't encounter too much cheaters, but not playing multiplayer games stay better to stay outside of invading toxic people, despite you can't, remember to stay legit and to never insult anyone, keep cool, and know that Steam is your best ally for gaming
+- There's a little way to encounter less cheaters in multiplayer games, it consist to report and block cheaters, each time you have any doubt, and at first, then as soon as possible, when the block list is full, to empty the list, it's because cheaters can change with their hacks, their display names and platforms, but not account, and if you not do that, you will always fight against these little jerky noobs in every matches you want to play and in a raw
+- Uninstall every apps and disable every features from Windows parameters and functionnalities, let only driver of graphic card and redistributable frameworks
+- Enable high performances for power option (alimentation manager) under Windows parameters and control panel
+- Enable game mode under Windows parameters for better graphic card manager
+- From Nvidia paramater panel, set 3D render to performance or quality, and other features for your graphic card in order to optimize your gaming session with better performance or quality, then you can disable the service Nvidia container, and the same from system settings for having better performance or quality
+- From programs and functionnalities, under functionnalities, disable everything, but let frameworks default settings
+- You can force ASLR if you play only Call of Duty with Battle.net by using the regedit key MoveImages:
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\ add the DWORD 32 bits value "MoveImages" and allocate a hex value of ffffffff
+- For mandatory ASLR:
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel\ add the REG_BINARY value "MitigationOptions" and allocate a hex value of 00,01,21,00,00,00,00,00,00,00,00,00,00,00,00,00
+- For better performances enable hardware transactional memory:
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\ add the DWORD 32 bits value "DisableTsx" and allocate a hex value of 0
+- Set other security and performance with the following registry keys:
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager
+"EnableNetworkProtection" DWORD 1
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection
+"EnableNetworkProtection" DWORD 1
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+"Start" DWORD 2
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wscsvc
+"Start" DWORD 2
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters
+"AutoShareWks" DWORD 0
+"AutoShareServer" DWORD 0
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteRegistry
+"Start" DWORD 4
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+"RestrictRemoteSAM" REG_SZ *****
+"RestrictRemoteSamAuditOnlyMode" DWORD 1
+"RestrictRemoteSamEventThrottlingWindow" DWORD 0
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile
+"SystemResponsiveness" DWORD 1
+"NetworkThrottlingIndex" DWORD Hex ffffffff
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance
+"MaintenanceDisabled" DWORD 0
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search
+"AllowCortana" DWORD 0
+"DisableWebSearch" DWORD 1
+"ConnectedSearchUseWeb" DWORD 0
+"ConnectedSearchUseWebOverMeteredConnections" DWORD 0
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client
+"Enabled" DWORD 1
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR
+"value" DWORD 0
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games
+"GPU Priority" DWORD 8
+"Priority" DWORD 6
+"Scheduling Category" RG_SZ High
+"SFIO Priority" RG_SZ High
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
+"ClearPageFileAtShutDown" DWORD 1
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
+"DisableNotificationCenter" DWORD 1
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+"RunAsPPL" DWORD 2
+"RunAsPPLBoot" DWORD 2
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System
+"RunAsPPL" DWORD 2
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\Wintrust\Config  
+"EnableCertPaddingCheck" DWORD 1
+HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Cryptography\Wintrust\Config 
+"EnableCertPaddingCheck" DWORD 1
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers
+"authenticodeenabled" DWORD 1
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\KeyExchangeAlgorithms\Diffie-Hellman
+"ServerMinKeyBitLength" DWORD 0
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{D27CDB6E-AE6D-11CF-96B8-444553540000}
+"Compatibility Flags" DWORD 00000400
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\ActiveX Compatibility\{D27CDB6E-AE6D-11CF-96B8-444553540000}
+"Compatibility Flags" DWORD 00000400
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Common\COM\Compatibility\{D27CDB6E-AE6D-11CF-96B8-444553540000}
+"Compatibility Flags" DWORD 00000400
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727
+"SchUseStrongCrypto" DWORD 1
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727
+"SchUseStrongCrypto" DWORD 1
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CertDllCreateCertificateChainEngine\Config
+"WeakSignatureLogDir" DWORD 1
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient
+"UseDomainNameDevolution" DWORD 0
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+"DisableAntiSpyware" DWORD 1
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
+"EnableMmx" DWORD 0
+- Delete the registry key HKEY_CLASSES_ROOT\ms-msdt
+- Type in cmd dos prompt command run as administrator the following commands (you can copy/paste it in a script.cmd file and execute it with administrative privilege instead of line by line):
+fsutil behavior set memoryusage 2
+bcdedit /set nolowmem off
+bcdedit /set nx alwayson
+bcdedit /set pae forceenable
+bcdedit /set TESTSIGNING OFF
+bcdedit /set NOINTEGRITYCHECKS OFF
+ipconfig/flushdns
+netsh int tcp set heuristics wsh=enabled forcews=enabled
+netsh int tcp set global autotuninglevel=highlyrestricted
+netsh int tcp set global ecncapability=enabled
+netsh int tcp set global rss=enabled
+netsh int ipv4 set global multicastforwarding=enabled
+netsh int ipv4 set global sourceroutingbehavior=forward
+netsh int ipv4 set global groupforwardedfragments=enabled
+netsh advfirewall set allprofiles settings remotemanagement disable
+netsh advfirewall set allprofiles state on
+netsh rpc filter delete filter filterkey=all
+netsh ras delete link lcp
+netsh ras delete link swc
+netsh ras delete multilink multi
+netsh http delete cache
+netsh int teredo set state default
+netsh int ipv4 delete destinationcache
+netsh int ipv4 delete neighbors
+netsh int ipv6 delete destinationcache
+netsh int ipv6 delete neighbors
+netsh int isatap set state default
+netsh winsock reset
+netsh winsock set autotuning on
+netsh interface tcp set global autotuning=highlyrestricted
+netsh interface tcp set global rsc=enabled
+netsh interface tcp set global dca=enabled
+netsh interface tcp set global ecncapability=enabled
+netsh interface tcp set global netdma=enabled
+netsh interface tcp set global timestamps=enabled
+netsh interface tcp set security mpp=enabled
+netsh interface tcp set security profiles=enabled
+netsh interface tcp set security startport=1 numberofports=65535 mpp=enabled
+netsh interface ipv4 set global icmpredirects=enabled
+netsh interface ipv4 set global sourceroutingbehavior=forward
+netsh interface ipv4 set global taskoffload=enabled
+netsh interface ipv4 set global dhcpmediasense=enabled
+netsh interface ipv4 set global mediasenseeventlog=enabled
+netsh interface ipv4 set global mldlevel=all
+netsh interface ipv4 set global mldversion=version3
+netsh interface ipv4 set global multicastforwarding=enabled
+netsh interface ipv4 set global groupforwardedfragments=enabled
+netsh interface ipv4 set global randomizeidentifiers=enabled
+netsh interface ipv4 set global addressmaskreply=enabled
+netsh interface ipv4 set global sourcebasedecmp=enabled
+netsh interface ipv4 set global minmtu=576
+netsh interface ipv4 set global loopbacklargemtu=enabled
+netsh interface ipv4 set global loopbackworkercount=16
+netsh interface ipv4 set global loopbackexecutionmode=inline
+netsh interface ipv4 set global reassemblyoutoforderlimit=0
+netsh interface ipv4 set global store=persistent
+netsh interface ipv4 set interface "1" nud=enabled
+netsh interface ipv4 set interface "1" weakhostsend=disabled
+netsh interface ipv4 set interface "1" weakhostreceive=disabled
+netsh interface ipv4 set interface "1" currenthoplimit=255
+netsh interface ipv4 set interface "1" ecncapability=application
+netsh interface teredo set state default
+netsh interface isatap set router enabled
+netsh interface ipv6 set privacy state=enabled
+netsh interface ipv6 set teredo default
+netsh p2p pnrp peer set machinename publish=start autopublish=enable
+netsh wfp set options netevent=on
+netsh ipsec dynamic add mmp name=mmp qmpermm=10 mmlifetime=300 softsa=20 mmsec="3DES-SHA1-3 DES-SHA1-2 3DES-MD5-3"
+netsh trace start scenario=internetclient
+netsh mbn disconnect wwansvc
+netsh interface ip delete arpcache
+netsh int ipv4 set compartment 0 255 store=persistent
+netsh int tcp set global ecncapability=enabled
+netsh int tcp set global timestamps=enabled
+netsh int tcp set global initialrto=300
+netsh int tcp set global rsc=enabled
+netsh int tcp set global maxsynretransmissions=8
+netsh int tcp set global fastopen=enabled
+netsh int tcp set global hystart=enabled
+netsh int tcp set global pacingprofile=always
+netsh int tcp set supplemental template=internet
+- Disable NetBios on TCP/IP from server WINS tab under IPv4 properties 
+- Disable every features from advanced tab under your network card configuration
+- Under advanced system parameters, disable remote desktop, disable visual features, disable shared files, and enable DEP for all programs and services
+- Disable snap windows from multitasking in system settings under Windows parameters because your task bar or desktop icons can be unaccesible, it's made to not have to stop webview2 process task for having access again to icons
+- In resume, for playing securely at Call of Duty :
+From task manager (ctrl + shift + esc), disable every start at boot programs
+From task scheduler (under Windows tools), delete every tasks and folders
+Disable services (under Windows tools) and let important services like explain above
+From security tools (under Windows parameters), enable all exploit protection from the system tab
+Enable exploit protection settings for Call of Duty (cod.exe) with parameters enumerate above
+Use Windows firewall like with the configs I give with FreeMyPlay (firewallcod.wfw), and use my guide to understand better, you also need to install the certificate Digicert G4, fom properties of cod.exe under the tab numeric signature, as prerequisite
+Use StopIt each time you want to play Call of Duty or use exploit protection to block executables not wanted as explained above
+Use exploit protection for programs I gave description of settings
+Play Call of Duty with launcher Battle.net
+Try a secure DNS server like CloudFlare, or NortonDNS, or NextDNS, or QuadNine, or ComodoDNS, you can change DNS server directly from Windows parameters, set the server DNS over HTTPS with automatic configuration
+- Disable game bar from parameters under Gaming for Game bar by setting "Record game clips, screenshots and broadcast using Game bar" to "Off"
+- You can use poweshell to export/import exploit protection settings (to run with administrative privilege) with the two following commands
+Get-ProcessMitigation -RegistryConfigFilePath C:\ExploitConfigfile.xml
+Set-ProcessMitigation -PolicyFilePath C:\ExploitConfigfile.xml
+then add/delete dllhost.exe manually otherwise you won't be able to install or uninstall programs
+- Check settings and installed applications each time you use Windows updates because of roll back
+- To change your IP address, you can let your modem/router shutdown several minutes or directly under your ISP frontpage connected with your internet account (ISP official website authentified with the address mail of who pay your internet at your home)
+- Use Windows firewall like examples given from FreeMyPlay, and also configs to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, otherwise it won't install
+- Set firewall of your modem with rules for each of your PC, local IP: internal IP of your PC, mask: 255.255.255.255, local ports: 1024-65535, distant ports: 1-49151, protocoles: TCP/UDP
