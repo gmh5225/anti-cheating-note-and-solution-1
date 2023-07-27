@@ -34,9 +34,6 @@
 - Shut down execution of unwanted applications using exploit protection but not those essentials
 - Add your games and applications for access folders (D:/, C:/) you protected when using protection against ransomware
 - Norton 360 gaming is useless for optimization and/or security
-- Update your Windows PC and repair install if not want updating (Windows10Upgrade9252.exe)
-- With Logi (Logitech) Z207 Stereo, and 2 PC, one connecting with bluetooth, the other with jack wire, it's possible to listen music while playing games
-- For better sound quality listening music, choose to tweeck audio settings in integrated equalizer like with audio control on HP computers, and also to use wired jack for looseless audio packets and no arsen in your hears (bluetooth is annoying for that), disable microphone and stereo mixer under sound properties, and shut down system sound from mixer
 - Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
 - Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
 - Set your screen native resolution for your game in your game graphic options
@@ -149,17 +146,9 @@ Service ouverture de session locale
 Service de découverte automatique de Proxy Web pour les services HTTP Windows
 Service de moteur de sauvegarde en mode bloc
 Security services as Windows firewall
-- FreePlay is made for playing games blocking all suspect IP, so fake servers
-- It's possible to check the effect with perfmon
-- It blocks using Window firewall
-- The file domain.txt is for allowing domains
-- Each line in file domain.txt must contain two parts of a domain name, separate with a space, for allowing it
-- All domains not in file domain.txt are blocked
-- Noobs and cheaters will not see the effect using it
-- Cheaters will not be able to find a match using it
-- It's a big energy saver (70%) for all peipherals connected to your PC using it, and so increasing lifetime of your PC
-- For repair Windows Update not able to find updates, or for repair sales in Fortnite, you need to disable protected folders under security parameters, and also exploit protection for dllhost.exe, ShellExperienceHost and UserOOBEBroker.exe
+- For repair Windows Update not able to find updates, or for repair sales in Fortnite, you need to disable protected folders under security parameters, and also exploit protection for dllhost.exe, ShellExperienceHost and UserOOBEBroker.exe, and disable avoid child process launching
 - Update often your PC with Windows Update, choosing global updates, but also facultative updates for driver updates, like BIOS, under Windows parameters, and from advanced options, under third party driver updates
+- Update your Windows PC and repair install if not want updating (Windows10Upgrade9252.exe)
 - You can delete a service with cmd dos prompt command run with administrative privilege using the command : sc delete "servicename", and delete a folder with : rmdir /s "foldername", and also delete a file with : del /f "filename"
 - You can set with cmd.exe your IPv4 properties as following:
 netsh interface ipv4 show config
