@@ -29,7 +29,8 @@
 - Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU because of my games crashing after update
 - Use Windows firewall rules, exploit protection and folder access as anti-cheats
 - For each Windows application, go to parameters of it by clicking right on it and disable background running
-- Disable all ethernet network card features from properties and let only Ipv4 installed from network properties
+- Disable all useless cards like Wi-Fi and Bluetooth cards, disable all ethernet network card features from card configuration and let only IPv4 installed from network properties
+- Set manually your IPv4 settings from network properties under network and share center in control panel
 - Enable all exploit protection for default system settings under protection tools from Windows parameters
 - Shut down execution of unwanted applications using exploit protection but not those essentials
 - Add your games and applications for access folders (D:/, C:/) you protected when using protection against ransomware
