@@ -324,7 +324,6 @@ Valider l'utilisation de la poignée -> Désactivé
 Valider l'intégrité du tas -> Activé
 Valider l'intégrité des dépendances d'images -> Activé
 Valider l'intégrité de la pile -> Désactivé
-- For better audio quality in your ears, under properties of audio peripherals, prefer the lowest quality (16 bits, CD, half grunge, half punk, but more fluids, and fitted sounds less tiring your ears) for your audio output peripheral and also disable all features like spatial sound, and use the tool for set your earphones asking you to test audio
 - Saving your games you add from Xbox application on a SSD needs it be formatted in NTFS format
 - Disable options of applications from Windows parameters, don't let it execute in background
 - In CoD, set group to private, check file modification like telescopeCache\telescope_index.dat or xpak_cache\xpak_settings.bin or main\toc1.dcache or .build.info or Launcher.exe, but start again battle.net setup before, check integrity of files after removing these files
@@ -374,7 +373,7 @@ In %localappdata% delete the battle.net and Blizzard Entertainment folders
 - Using invasive programs on a lowend PC is destroying it, it's the case with programs for recording or streaming, even with anti-virus, be sure of the sources before using unknown programs
 - If you think you are shadowban in CoD, it's probably hackers triggered it with game config files changing it, so delete it and make again your game config, even reinstall CoD for prevent it and be sure there's no trace remaining, you can check if you are shadow banned in Call of Duty with the link: https://support.activision.com/ban-appeal
 - Cheat program used by cheaters have hacks exploiting vulnerabilities for always forward good and fair players in hacked lobbies, vulnerabilities also destroy your PC
-- If you are forwarded in same match after leaving one, or with same cheaters, you are forwarded in hacked lobbies, I've tried everything for Call of Duty, there's nothing running
+- If you are forwarded in same match after leaving one, or with same cheaters you blocked, you are forwarded in hacked lobbies, I've tried everything for Call of Duty, there's almost nothing running, only right firewall rules
 - I advice to block exe against ransomeware, like explain before, and to use StopIt while playing competitive for stoping exe that can't be blocked against ransomeware, your gameplay is more fluid like this and you don't encounter too much cheaters, but not playing multiplayer games stay better to stay outside of invading toxic people, despite you can't, remember to stay legit and to never insult anyone, keep cool, and know that Steam is your best ally for gaming
 - There's a little way to encounter less cheaters in multiplayer games, it consist to report and block cheaters, each time you have any doubt, and at first, then as soon as possible, when the block list is full, to empty the list, it's because cheaters can change with their hacks, their display names and platforms, but not account, and if you not do that, you will always fight against these little jerky noobs in every matches you want to play and in a raw
 - Uninstall every apps and disable every features from Windows parameters and functionnalities, let only driver of graphic card and redistributable frameworks
