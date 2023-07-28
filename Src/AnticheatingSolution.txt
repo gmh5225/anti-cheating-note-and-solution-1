@@ -5,7 +5,8 @@
 - Disable sleep mode when you don't touch your PC
 - Set to higher level UAC (User Account Control) from control panel
 - Uninstall all programs but let ethernet card drivers, audio and video drivers (Nvidia audio and graphic drivers)
-- Disable all functionnalites but let frameworks 3.5 and 4.2 under programs and functionnalities
+- Uninstall every apps and disable every features from Windows parameters and functionnalities, let only drivers of graphic, audio and ethernet cards, and redistributable frameworks
+- Disable all functionnalites but let frameworks 3.5 and 4.2 from programs and functionnalities under control panel
 - Uninstall all redistributable packages and install redistributable packages found on Microsoft official website
 - Set parameter for better performance and disable remote connection from advanced system under control panel
 - Delete C:\Windows\System32\wlanext.exe, C:\Windows\System32\ibtsiva.exe, and C:\Program Files\Intel\WiFi (dllhost), and use ethernet wire
@@ -23,23 +24,19 @@
 - Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell, conhost, ShellExperienceHost to exploit protection with all features enable
 - Enable all security features from Windows security under Windows parameters, like node isolation, security against ransomeware adding all disks (C:/ and D:/), exploit protection, etc
 - Set better graphic performance option for your game from display properties under graphic parameters
-- Delete all tasks under task scheduler from administrative tools in control panel
+- Delete all tasks and folders as you can under task scheduler from administrative tools in control panel
 - Set modem/router firewall to allow all ports for your gaming PC but only port 80 and 443 in TCP for your other devices
+- Set firewall of your modem with rules for each of your PC, local IP: internal IP of your PC, mask: 255.255.255.255, local ports: 1024-65535, distant ports: 1-49151, protocoles: TCP/UDP
 - Disable UpNp and IPv6 on your modem/router under network tab
-- Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU because of my games crashing after update
-- Use Windows firewall rules, exploit protection and folder access as anti-cheats
+- Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU for better performances
+- Use Windows firewall rules, exploit protection and folder access against ransomeware as anti-cheat
 - For each Windows application, go to parameters of it by clicking right on it and disable background running
 - Disable all useless cards like Wi-Fi and Bluetooth cards, disable all ethernet network card features from card configuration and let only IPv4 installed from network properties
 - Set manually your IPv4 settings from network properties under network and share center in control panel
-- Enable all exploit protection for default system settings under protection tools from Windows parameters
-- Shut down execution of unwanted applications using exploit protection but not those essentials
-- Add your games and applications for access folders (D:/, C:/) you protected when using protection against ransomware
 - Norton 360 gaming is useless for optimization and/or security
 - Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
 - Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
 - Set your screen native resolution for your game in your game graphic options
-- Run the following command in cmd dos with administrative privilege to increase the limit of paged pool memory size, fsutil behavior set memoryusage 2
-- Open cmd prompt command and type ipconfig/flushdns
 - Uninstall programs if it eats memory, then reinstall it with last installer, if you use it
 - Delete everything in %temp% folder, even masked elements
 - Delete the maxinmum of useless things in folders %programfiles(x86)%, %programdata%, %localappdata%, %appdata%
@@ -47,7 +44,10 @@
 - Launch repair tool when restarting pressing shift key with click on restart
 - Launch battle.net, your games and applications without administrative privilege
 - Set IPv4 properties to default under network properties, and set Windows firewall rules to default for resolving your internal IP, then import your rules again if you have an issue for connecting in CoD
-- Delete call of duty game folder under documents, sometimes when your game is open (use Alt+F4, Alt+Enter is to switch fullscreen/windowed)
+- Delete call of duty game folder under documents sometimes, when your game is open (use Alt+F4, Alt+Enter is to switch fullscreen/windowed)
+- Add your games and applications for access folders (D:/, C:/) you protected when using protection against ransomware
+- Enable all exploit protection for default system settings under protection tools from Windows parameters
+- Shut down execution of unwanted applications using exploit protection but not those essentials
 - You can block ransomeware by blocking start of some exe with exploit protection settings to all enable
 - Whitelist against ransomeware to not block :
 BlackOpsColdWar.exe
@@ -340,7 +340,7 @@ In %localappdata% delete the battle.net and Blizzard Entertainment folders
 - Finally uninstall and reinstall battle.net, copy your game files, uninstall the game, format your SSD with default settings, and copy again your game files, and then reinstall your game by locate game files, or simply, uninstall the game, and reinstall it disabling auto update, enabling english language, and make a copy of fresh files
 - Remove cheaters you blocked after your list is full, then you can add again the new cheaters, for having true gamers in your matches and not be harrassed everytime by these jerks
 - Set battle.net to quit when launching a game, and make manually update of your game and launch it after that without firewall blocking rules for both, taking care to not break the game files to not have to redownload it
-- Disable voice tchat, disable text tchat, disable all graphic feature, disable lightness, but enable your best and fuck the rest
+- Disable voice tchat, disable text tchat, disable all graphic features under game options
 - If you have a bad connection for your matches and it's fill with cheaters, prefer in it less players as possible
 - Every free drivers of any kind, not comming with your OS, and every free programs you download on internet have or are viruses
 - You can repair your PC with cmd dos prompt command run with administrative privilege typing both commands: sfc /scannow, DISM /Online /Cleanup-Image /ScanHealth
@@ -354,17 +354,14 @@ In %localappdata% delete the battle.net and Blizzard Entertainment folders
 - Enabling UAC to highest level is allowing to know if battle.net is launched as admin and so games, and so restart battle.net until it's not running as admin
 - It's better to restore your PC from fresh often than trying to repair with strange programs, you just have to keep your game files on a external disk
 - For better performances, keep enable the service SysMain, before named perfetch
-- Remove all tasks from task scheduller in Windows tools (administrative tools) under control panel
 - Prefer to upgrade to last Windows OS, it's always more optimized and better performances
 - Disable every features and deny every applications to run in background from Windows parameters, but let parameters for bluetooth and sound from dedicated tabs, not from Windows parameters, where you can disable everything
 - Prefer to update drivers using peipheral manager under control panel
-- Remove every tasks in task scheduler from administrative tools (Windows tools) under control panel
 - To avoid input lags or desktop freeze, take care to not having useless hidden drivers from peripheral manager, under control panel, otherwise remove all of it
 - From folder explorer search, remove all folders and files, even hidden, packages, .vs, .git, .gitattributes
 - Prefer to let distant port 443 (https) for all programs in modem and Windows firewall, in order Windows update slice to secure download instead of unsecure with port 80 (http)
 - Don't allow SSID of your modem to be discover, and set allow to connect to network if the SSID is not in discovering mode, from IPv4 network connection properties under network center and sharing under control panel
-- For better performances, run the following command in cmd dos with administrative privilege to increase the limit of paged pool memory size, fsutil behavior set memoryusage 2
-- For some reasons, like hackers and haters are targeting you, using a VPN is better than using firewalls, but some settings are required, let the services running like SSDP service, Telephonic service, and Telephony, NetBios service, set to default properties of IPv4 from network card, and all services installed of network card, and set to default Windows and modem firewall
+- For some reasons, like hackers and haters are targeting you, using a VPN is better than using Windows firewall, but some settings are required, let the services running like SSDP service, Telephonic service, and Telephony, NetBios service, set to default properties of IPv4 from network card, and all services installed of network card, and set to default Windows and modem firewall
 - You can compare Windows integrated VPN with vpnbook p2p servers (not servers optimized for the web), WTFast and ExitLag... For using it on consoles, you can share connection from a PC using it, wired with a RJ-45 cable
 - You have less issue on your PC if you set cloudflare DNS client server (1.1.1.1)
 - You have less bad lobbies in CoD by not insulting people
@@ -377,7 +374,6 @@ In %localappdata% delete the battle.net and Blizzard Entertainment folders
 - If you are forwarded in same match after leaving one, or with same cheaters you blocked, you are forwarded in hacked lobbies, I've tried everything for Call of Duty, there's almost nothing running, only right firewall rules
 - I advice to block exe against ransomeware, like explain before, and to use StopIt while playing competitive for stoping exe that can't be blocked against ransomeware, your gameplay is more fluid like this and you don't encounter too much cheaters, but not playing multiplayer games stay better to stay outside of invading toxic people, despite you can't, remember to stay legit and to never insult anyone, keep cool, and know that Steam is your best ally for gaming
 - There's a little way to encounter less cheaters in multiplayer games, it consist to report and block cheaters, each time you have any doubt, and at first, then as soon as possible, when the block list is full, to empty the list, it's because cheaters can change with their hacks, their display names and platforms, but not account, and if you not do that, you will always fight against these little jerky noobs in every matches you want to play and in a raw
-- Uninstall every apps and disable every features from Windows parameters and functionnalities, let only driver of graphic card and redistributable frameworks
 - Enable high performances for power option (alimentation manager) under Windows parameters and control panel
 - Enable game mode under Windows parameters for better graphic card manager
 - From Nvidia paramater panel, set 3D render to performance or quality, and other features for your graphic card in order to optimize your gaming session with better performance or quality, then you can disable the service Nvidia container, and the same from system settings for having better performance or quality
@@ -461,6 +457,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
 "EnableMmx" DWORD 0
 - Delete the registry key HKEY_CLASSES_ROOT\ms-msdt
+- Run the following command in cmd dos with administrative privilege to increase the limit of paged pool memory size "fsutil behavior set memoryusage 2"
+- Open cmd prompt command and type ipconfig/flushdns
 - Type in cmd dos prompt command run as administrator the following commands (you can copy/paste it in a script.cmd file and execute it with administrative privilege instead of line by line):
 fsutil behavior set memoryusage 2
 bcdedit /set nolowmem off
@@ -547,23 +545,28 @@ netsh int tcp set supplemental template=internet
 - Disable every features from advanced tab under your network card configuration
 - Under advanced system parameters, disable remote desktop, disable visual features, disable shared files, and enable DEP for all programs and services
 - Disable snap windows from multitasking in system settings under Windows parameters because your task bar or desktop icons can be unaccesible, it's made to not have to stop webview2 process task for having access again to icons
-- In resume, for playing securely at Call of Duty :
-From task manager (ctrl + shift + esc), disable every start at boot programs
-From task scheduler (under Windows tools), delete every tasks and folders
-Disable services (under Windows tools) and let important services like explain above
-From security tools (under Windows parameters), enable all exploit protection from the system tab
-Enable exploit protection settings for Call of Duty (cod.exe) with parameters enumerate above
-Use Windows firewall like with the configs I give with FreeMyPlay (firewallcod.wfw), and use my guide to understand better, you also need to install the certificate Digicert G4, fom properties of cod.exe under the tab numeric signature, as prerequisite
-Use StopIt each time you want to play Call of Duty or use exploit protection to block executables not wanted as explained above
-Use exploit protection for programs I gave description of settings
-Play Call of Duty with launcher Battle.net
-Try a secure DNS server like CloudFlare, or NortonDNS, or NextDNS, or QuadNine, or ComodoDNS, you can change DNS server directly from Windows parameters, set the server DNS over HTTPS with automatic configuration
 - Disable game bar from parameters under Gaming for Game bar by setting "Record game clips, screenshots and broadcast using Game bar" to "Off"
 - You can use poweshell to export/import exploit protection settings (to run with administrative privilege) with the two following commands
 Get-ProcessMitigation -RegistryConfigFilePath C:\ExploitConfigfile.xml
 Set-ProcessMitigation -PolicyFilePath C:\ExploitConfigfile.xml
-then add/delete dllhost.exe manually otherwise you won't be able to install or uninstall programs
+then add/delete dllhost.exe manually from exploit protection otherwise you won't be able to install or uninstall programs
+- Use the following commands of Powershell run with administrative privilege to uninstall useless Windows packages
+Get-AppxPackage *xboxapp* | Remove-AppxPackage
+Get-AppxPackage *gamebar* | Remove-AppxPackage
+Get-AppxPackage *xboxgamebar* | Remove-AppxPackage
+Get-AppxPackage *xbox* | Remove-AppxPackage
+Get-AppxPackage *camera* | Remove-AppxPackage
+Get-AppxPackage *contacts* | Remove-AppxPackage
+Get-AppxPackage *cortana* | Remove-AppxPackage
+Get-AppxPackage *mobile* | Remove-AppxPackage
+Get-AppxPackage *photos* | Remove-AppxPackage
+Get-AppxPackage *msedge* | Remove-AppxPackage
+Get-AppxPackage *msstore* | Remove-AppxPackage
+Get-AppxPackage *capture* | Remove-AppxPackage
+Get-AppxPackage *print* | Remove-AppxPackage
+Get-AppxPackage *printer* | Remove-AppxPackage
+Get-AppxPackage *mic* | Remove-AppxPackage
+Get-AppxPackage *phone* | Remove-AppxPackage
 - Check settings and installed applications each time you use Windows updates because of roll back
 - To change your IP address, you can let your modem/router shutdown several minutes or directly under your ISP frontpage connected with your internet account (ISP official website authentified with the address mail of who pay your internet at your home)
-- Use Windows firewall like examples given from FreeMyPlay, and also configs to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, otherwise it won't install
-- Set firewall of your modem with rules for each of your PC, local IP: internal IP of your PC, mask: 255.255.255.255, local ports: 1024-65535, distant ports: 1-49151, protocoles: TCP/UDP
+- Use Windows firewall rules, and also configs of CoD to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, otherwise it won't install
