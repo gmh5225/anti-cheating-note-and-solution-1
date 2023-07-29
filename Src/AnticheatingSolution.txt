@@ -159,26 +159,7 @@ netsh interface ipv4 set dns name="Wi-Fi" static 8.8.4.4 index=2
 - Change your modem Dhcp config for set internal IP of buisness like, i.e. 10.0.0.1, and then in cmd.exe type as following:
 ipconfig/release
 ipconfig/renew
-- Try to use cloudflare as DNS with server IP 1.1.1.1, or 1.0.0.1
-- List of DNS you can use to try
-quad9 9.9.9.9, 149.112.112.112
-cloudflare 1.1.1.1, 1.0.0.1
-Verisign DNS 64.6.64.6, 64.6.65.6
-Google DNS 8.8.8.8, 8.8.4.4
-DNSWatch 84.200.69.80, 84.200.70.40
-AdGuard DNS 176.103.130.130, 176.103.130.131
-Dyn Internet Guide 216.146.35.35, 216.146.36.36252
-FDN 80.67.169.12, 80.67.169.40
-Freenom World 80.80.80.80, 80.80.81.81
-FreeDNS 37.235.1.174, 37.235.1.177
-Neustar DNS service 156.154.70.4, 156.154.71.4
-SafeDNS 195.46.39.39, 195.46.39.40
-SmartViper Public DNS 208.76.50.50, 208.76.51.51
-YandexDNS 77.88.8.7, 77.88.8.3
-CleanBrowsing 185.228.168.9, 185.228.169.9
-CenturyLink 4.2.2.1, 4.2.2.2, 4.2.2.3, 4.2.2.4
-NextDNS.io 45.90.28.218, 45.90.30.218
-- Change often of DNS server or use only DNS server of your ISP
+- Use only DNS server of your ISP
 - Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
 - Exploit Protection Settings Easy Anti Cheat - Epic Games Launcher - Battle.net - WmiPrvSE
 Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
@@ -363,7 +344,6 @@ In %localappdata% delete the battle.net and Blizzard Entertainment folders
 - Don't allow SSID of your modem to be discover, and set allow to connect to network if the SSID is not in discovering mode, from IPv4 network connection properties under network center and sharing under control panel
 - For some reasons, like hackers and haters are targeting you, using a VPN is better than using Windows firewall, but some settings are required, let the services running like SSDP service, Telephonic service, and Telephony, NetBios service, set to default properties of IPv4 from network card, and all services installed of network card, and set to default Windows and modem firewall
 - You can compare Windows integrated VPN with vpnbook p2p servers (not servers optimized for the web), WTFast and ExitLag... For using it on consoles, you can share connection from a PC using it, wired with a RJ-45 cable
-- You have less issue on your PC if you set cloudflare DNS client server (1.1.1.1)
 - You have less bad lobbies in CoD by not insulting people
 - With Windows 11 OS, you have to register your session with a Microsoft account, but after it you can add a local user with a password, and set a local account for open your session, but if you refresh from factory your PC, this setting stay when you choose to keep files
 - Set security and confidentiality on Edge settings to maximum levels of security for each of parameter, and also under edge://settings/system you need to disable everything, particularly the parameter of material acceleration, for be able to watch movies on Netflix
