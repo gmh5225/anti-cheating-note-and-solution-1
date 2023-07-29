@@ -337,7 +337,7 @@ net start winmgmt
 In %programdata% delete the Battle.net and Blizzard Entertainment folders
 In %appdata% delete the Battle.net folder
 In %localappdata% delete the battle.net and Blizzard Entertainment folders
-- Finally uninstall and reinstall battle.net, copy your game files, uninstall the game, format your SSD with default settings, and copy again your game files, and then reinstall your game by locate game files, or simply, uninstall the game, and reinstall it disabling auto update, enabling english language, and make a copy of fresh files
+- Finally uninstall and reinstall battle.net, copy your game files, uninstall the game, format your SSD with default settings, and copy again your game files, and then reinstall your game by locate game files, or simply, uninstall the game, and reinstall it disabling auto update, enabling english language, and make a copy of fresh files, do it each time there are too much cheaters, it's probably they changed your game files by injecting a malware
 - Remove cheaters you blocked after your list is full, then you can add again the new cheaters, for having true gamers in your matches and not be harrassed everytime by these jerks
 - Set battle.net to quit when launching a game, and make manually update of your game and launch it after that without firewall blocking rules for both, taking care to not break the game files to not have to redownload it
 - Disable voice tchat, disable text tchat, disable all graphic features under game options
