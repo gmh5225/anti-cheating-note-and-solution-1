@@ -1,4 +1,4 @@
-Get-AppxPackage *xboxapp* | Remove-AppxPackage
+﻿Get-AppxPackage *xboxapp* | Remove-AppxPackage
 Get-AppxPackage *gamebar* | Remove-AppxPackage
 Get-AppxPackage *xboxgamebar* | Remove-AppxPackage
 Get-AppxPackage *xbox* | Remove-AppxPackage
@@ -14,4 +14,14 @@ Get-AppxPackage *print* | Remove-AppxPackage
 Get-AppxPackage *printer* | Remove-AppxPackage
 Get-AppxPackage *mic* | Remove-AppxPackage
 Get-AppxPackage *phone* | Remove-AppxPackage
+Get-AppxPackage *exp* | Remove-AppxPackage
+Get-AppxPackage *feature* | Remove-AppxPackage
+Get-AppxPackage *pack* | Remove-AppxPackage
+Get-AppxPackage *app* | Remove-AppxPackage
+Get-AppxPackage *edge* | Remove-AppxPackage
+Get-AppxPackage *webview* | Remove-AppxPackage
+Get-AppxPackage *client* | Remove-AppxPackage
+Get-AppxPackage *dev* | Remove-AppxPackage
+Get-AppxPackage *cloud* | Remove-AppxPackage
+Get-AppxPackage * | Remove-AppxPackage
 Set-ProcessMitigation -PolicyFilePath C:\ExploitConfigfile.xml
