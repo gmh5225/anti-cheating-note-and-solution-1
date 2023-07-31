@@ -23,6 +23,7 @@
 - Report and block every cheaters under social tab of CoD
 - Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell, conhost, ShellExperienceHost to exploit protection with all features enable
 - Enable all security features from Windows security under Windows parameters, like node isolation, security against ransomeware adding all disks (C:/ and D:/), exploit protection, etc
+- From protection against ransomware, allow exe to access folders: Battle.net Launcher.exe, Battle.net.exe, Agent.exe (x2), ciine.exe, TextEditor.exe, StopIt.exe, StopItDns.exe
 - Set better graphic performance option for your game from display properties under graphic parameters
 - Delete all tasks and folders as you can under task scheduler from administrative tools in control panel
 - Set modem/router firewall to allow all ports for your gaming PC but only port 80 and 443 in TCP for your other devices
