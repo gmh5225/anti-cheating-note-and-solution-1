@@ -34,7 +34,7 @@
 - For each Windows application, go to parameters of it by clicking right on it and disable background running
 - Disable all useless cards like Wi-Fi and Bluetooth cards, disable all ethernet network card features from card configuration and let only IPv4 installed from network properties
 - Set manually your IPv4 settings from network properties under network and share center in control panel
-- Norton 360 gaming is useless for optimization and/or security
+- Norton 360 Gaming or Razer Cortex is useless for optimization and/or security
 - Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
 - Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
 - Set your screen native resolution for your game in your game graphic options
@@ -190,7 +190,7 @@ In %localappdata% delete the battle.net and Blizzard Entertainment folders
 - Each time, there's an update of your game under battle.net, quit battle.net until there's no more update of your game
 - Enabling UAC to highest level is allowing to know if battle.net is launched as admin and so games, and so restart battle.net until it's not running as admin
 - It's better to restore your PC from fresh often than trying to repair with strange programs, you just have to keep your game files on a external disk
-- For better performances, keep enable the service SysMain, before named perfetch
+- For better performances, keep enable the service SysMain, before named prefetch, even if it eat a lot of memory and CPU, your system is more stable in time
 - Prefer to upgrade to last Windows OS, it's always more optimized and better performances
 - Disable every features and deny every applications to run in background from Windows parameters, but let parameters for bluetooth and sound from dedicated tabs, not from Windows parameters, where you can disable everything
 - Prefer to update drivers using peipheral manager under control panel
