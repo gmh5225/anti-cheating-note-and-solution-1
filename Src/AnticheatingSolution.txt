@@ -34,6 +34,7 @@
 - For each Windows application, go to parameters of it by clicking right on it and disable background running
 - Disable all useless cards like Wi-Fi and Bluetooth cards, disable all ethernet network card features from card configuration and let only IPv4 installed from network properties
 - Set manually your IPv4 settings from network properties under network and share center in control panel
+- Disable NetBios on TCP/IP from server WINS tab under IPv4 properties
 - Norton 360 Gaming or Razer Cortex is useless for optimization and/or security
 - Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
 - Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
@@ -378,7 +379,6 @@ netsh int tcp set global fastopen=enabled
 netsh int tcp set global hystart=enabled
 netsh int tcp set global pacingprofile=always
 netsh int tcp set supplemental template=internet
-- Disable NetBios on TCP/IP from server WINS tab under IPv4 properties 
 - Disable every features from advanced tab under your network card configuration
 - Under advanced system parameters, disable remote desktop, disable visual features, disable shared files, and enable DEP for all programs and services
 - Disable snap windows from multitasking in system settings under Windows parameters because your task bar or desktop icons can be unaccesible, it's made to not have to stop webview2 process task for having access again to icons
