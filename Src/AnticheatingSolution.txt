@@ -52,12 +52,12 @@
 - Enable all exploit protection for default system settings under protection tools from Windows parameters
 - Shut down execution of unwanted applications using exploit protection but not those essentials
 - You can block ransomeware by blocking start of some exe with exploit protection settings to all enable
-- Whitelist against ransomeware to not block :
+- Whitelist against ransomeware to not block:
 BlackOpsColdWar.exe, ModernWarfare.exe, cod.exe, Battle.net.exe, Battle.net Launcher.exe, mmc.exe, Agent.exe, TextEditor.exe, Taskmgr.exe, perfmon.exe, csrss.exe, dwm.exe, explorer.exe, lsass.exe, ntoskrnl.exe, RtkAudUService64.exe, audiodg.exe, smss.exe, svchost.exe, consent.exe, conhost.exe, webViewer.exe, smartscreen.exe, rundll32.exe, fontdrvhost.exe, jhi_service.exe, NisSrv.exe, NVDisplay.Container.exe, SecurityHealthService.exe, services.exe, SgrmBroker.exe, sihost.exe, TPMProvisioningService.exe, wininit.exe, winlogon.exe, StartMenuExperienceHost.exe, MsMpEng.exe, ApplicationFrameHost.exe, wlanext.exe, WmiApSrv.exe, SIHClient.exe, RuntimeBroker.exe
-- Blacklist against ransomeware to block :
+- Blacklist against ransomeware to block:
 dllhost.exe, gamingservices.exe, gamingservicesnet.exe, MicrosoftEdgeUpdate.exe, msedgewebview2.exe, msedge.exe, Microsoft.Photos.exe, PhoneExperienceHost.exe, SearchHost.exe, SearchApp.exe, WMIADAP.exe, WMIC.exe, Widgets.exe, GameBarPresenceWriter.exe, GameBarFTServer.exe, GameBar.exe, dxgiadaptercache.exe, UserOOBEBroker.exe, backgroundTaskHost.exe, taskhostw.exe, ShellExperienceHost.exe, DsmUserTask.exe
 - Disable useless services (all intel services) under administrative tools from control panel
-- Windows services to let (in french) :
+- Windows services to let (in french):
 Informations d’application, Service de profil utilisateur, Générateur de point de terminaison du service audio Windows, Audio Windows, Moteur de filtrage de base, Service de prise en charge bluetooth, Service de chiffrement, Client DHCP, Client DNS, Journal d’événement Windows , Service de stratégie de diagnostic, Service d'association de périphérique, Gestionnaire d'installation de periphérique, Détection materiel noyau, Plug-and-Play, Client de stratégie de groupe, Planificateur de classe multimédia, Windows installer, Netlogon, Connexions réseau , Service Interface du magasin réseau, Alimentation, Mappeur de point de terminaison, Planificateur de taches, Service client steam, Sauvegarde Windows, Service ouverture de session locale, Service de découverte automatique de Proxy Web pour les services HTTP Windows, Service de moteur de sauvegarde en mode bloc, Security services as Windows firewall
 - For repair Windows Update not able to find updates, or for repair sales in Fortnite, you need to disable protected folders under security parameters, and also exploit protection for dllhost.exe, ShellExperienceHost and UserOOBEBroker.exe, and disable avoid child process launching
 - Update often your PC with Windows Update, choosing global updates, but also facultative updates for driver updates, like BIOS, under Windows parameters, and from advanced options, under third party driver updates
@@ -107,10 +107,8 @@ In %localappdata% delete the battle.net and Blizzard Entertainment folders
 - From folder explorer search, remove all folders and files, even hidden, packages, .vs, .git, .gitattributes
 - Prefer to let distant port 443 (https) for all programs in modem and Windows firewall, in order Windows update slice to secure download instead of unsecure with port 80 (http)
 - Don't allow SSID of your modem to be discover, and set allow to connect to network if the SSID is not in discovering mode, from IPv4 network connection properties under network center and sharing under control panel
-- For some reasons, like hackers and haters are targeting you, using a VPN is better than using Windows firewall, but some settings are required, let the services running like SSDP service, Telephonic service, and Telephony, NetBios service, set to default properties of IPv4 from network card, and all services installed of network card, and set to default Windows and modem firewall
-- You can compare Windows integrated VPN with vpnbook p2p servers (not servers optimized for the web), WTFast and ExitLag... For using it on consoles, you can share connection from a PC using it, wired with a RJ-45 cable
 - You have less bad lobbies in CoD by not insulting people
-- With Windows 11 OS, you have to register your session with a Microsoft account, but after it you can add a local user with a password, and set a local account for open your session, but if you refresh from factory your PC, this setting stay when you choose to keep files
+- With Windows 11 OS, you have to register your session with a Microsoft account, but after it you can add a local user with a password, and set a local account for open your session, and if you refresh from factory your PC, this setting stay when you choose to keep files
 - Set security and confidentiality on Edge settings to maximum levels of security for each of parameter, and also under edge://settings/system you need to disable everything, particularly the parameter of material acceleration, for be able to watch movies on Netflix
 - If you can't launch some games, it's probably because Windows Defender Diagnosis is set to required, blocking some game files
 - Using invasive programs on a lowend PC is destroying it, it's the case with programs for recording or streaming, even with anti-virus, be sure of the sources before using unknown programs
