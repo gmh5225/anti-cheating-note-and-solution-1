@@ -142,4 +142,5 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Manag
 - Check settings and installed applications each time you use Windows updates because of roll back
 - To change your IP address, you can let your modem/router shutdown several minutes or directly under your ISP frontpage connected with your internet account (ISP official website authentified with the address mail of who pay your internet at your home)
 - For cleaning your PC, only use a vacuum cleaner with brush attachment and hold on your fans, but never use a dry air bomb because of conductor liquid inside
+- To clean your PC from virus and get it stay safer, you can use malwarebytes antimalwares (MBSetup.exe)
 - Use Windows firewall rules, and also configs of CoD to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, otherwise it won't install
