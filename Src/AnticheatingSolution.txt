@@ -7,7 +7,7 @@
 - Set to higher level UAC (User Account Control) from control panel
 - Enabling UAC to highest level is allowing to know if battle.net is launched as admin and so games, and so restart battle.net until it's not running as admin
 - Uninstall every apps and disable every features from Windows parameters and functionnalities, let only drivers of graphic, audio and ethernet cards, and redistributable frameworks
-- Disable all functionnalites but let frameworks 3.5 and 4.2 from programs and functionnalities under control panel
+- Disable all functionnalites but let frameworks 3.5 and 4.8 from programs and functionnalities under control panel
 - Uninstall all redistributable packages and install redistributable packages found on Microsoft official website
 - Set parameter for better performance and disable remote connection from advanced system under control panel
 - Delete C:\Windows\System32\wlanext.exe, C:\Windows\System32\ibtsiva.exe, and C:\Program Files\Intel\WiFi (dllhost), and use ethernet wire
@@ -25,12 +25,12 @@
 - Report and block every cheaters under social tab of CoD
 - Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell, conhost, ShellExperienceHost to exploit protection with all features enable
 - Enable all security features from Windows security under Windows parameters, like node isolation, security against ransomeware adding all disks (C:/ and D:/), exploit protection, etc
-- From protection against ransomware, allow exe to access folders: Battle.net Launcher.exe, Battle.net.exe, Agent.exe (x2), ciine.exe, TextEditor.exe, StopIt.exe, StopItDns.exe, MMC.exe
+- From protection against ransomware, allow exe to access folders: Battle.net Launcher.exe, Battle.net.exe, Agent.exe (x2), ciine.exe, TextEditor.exe, StopIt.exe, MMC.exe
 - Set better graphic performance option for your game from display properties under graphic parameters
 - Delete all tasks and folders as you can under task scheduler from administrative tools in control panel
 - Set modem/router firewall to allow all ports for your gaming PC but only port 80 and 443 in TCP for your other devices
 - Set firewall of your modem with rules for each of your PC, local IP: internal IP of your PC, mask: 255.255.255.255, local ports: 1024-65535, distant ports: 1-49151, protocoles: TCP/UDP
-- Disable UpNp and IPv6 on your modem/router under network tab
+- Disable UPNP and IPv6 on your modem/router under network tab
 - Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU for better performances
 - Use Windows firewall rules, exploit protection and folder access against ransomeware as anti-cheat
 - For each Windows application, go to parameters of it by clicking right on it and disable background running
