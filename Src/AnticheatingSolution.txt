@@ -74,6 +74,13 @@ netsh interface ipv4 set dns name="Wi-Fi" static 8.8.4.4 index=2
 ipconfig/release
 ipconfig/renew
 - Use only DNS server of your ISP
+- DNS to not block if using NextDNS as DNS server
+cloudfront.net
+callofduty.com
+activision.com
+battle.net
+blizzard.com
+demonware.net
 - Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
 - Saving your games you add from Xbox application on a SSD needs it be formatted in NTFS format
 - Disable options of applications from Windows parameters, don't let it execute in background
@@ -87,6 +94,10 @@ net start winmgmt
 In %programdata% delete the Battle.net and Blizzard Entertainment folders
 In %appdata% delete the Battle.net folder
 In %localappdata% delete the battle.net and Blizzard Entertainment folders
+- Uninstalling Battle.net
+Press Windows key + R and type in %programfiles(x86)%
+Delete anything related to Blizzard or Battle.net
+Do the same for %temp%, %programdata%, %localappdata%, %appdata%
 - Finally uninstall and reinstall battle.net, copy your game files, uninstall the game, format your SSD with default settings, and copy again your game files, and then reinstall your game by locate game files, or simply, uninstall the game, and reinstall it disabling auto update, enabling english language, and make a copy of fresh files, do it each time there are too much cheaters, it's probably they changed your game files by injecting a malware
 - Remove cheaters you blocked after your list is full, then you can add again the new cheaters, for having true gamers in your matches and not be harrassed everytime by these jerks
 - Set battle.net to quit when launching a game, and make manually update of your game and launch it after that without firewall blocking rules for both, taking care to not break the game files to not have to redownload it
