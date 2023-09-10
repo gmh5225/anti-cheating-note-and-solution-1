@@ -142,6 +142,7 @@ Do the same for %temp%, %programdata%, %localappdata%, %appdata%
 - Under advanced system parameters, disable remote desktop, disable visual features, disable shared files, and enable DEP for all programs and services
 - Disable snap windows from multitasking in system settings under Windows parameters because your task bar or desktop icons can be unaccesible, it's made to not have to stop webview2 process task for having access again to icons
 - Disable game bar from parameters under Gaming for Game bar by setting "Record game clips, screenshots and broadcast using Game bar" to "Off"
+- Disable indexation from disk properties for avoiding unwanted execution
 - You can use poweshell to export/import exploit protection settings (to run with administrative privilege) with the two following commands
 Get-ProcessMitigation -RegistryConfigFilePath C:\ExploitConfigfile.xml
 Set-ProcessMitigation -PolicyFilePath C:\ExploitConfigfile.xml
