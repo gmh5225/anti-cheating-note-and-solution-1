@@ -57,7 +57,7 @@ ConstrainMouse:0.0 = "false"
 DisplayGamma:0.0 = "BT709_sRGB" // one of [BT709_sRGB, BT709_BT1886]
 
 // Fullscreen mode
-DisplayMode:0.0 = "Fullscreen" // one of [Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
+DisplayMode:0.0 = "Fullscreen borderless window" // one of [Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
 
 // Enable focused mode
 FocusedMode:0.0 = "false"
@@ -72,7 +72,7 @@ Monitor:0.0 = "    DTV      "
 NvidiaReflex:0.0 = "Disabled" // one of [Disabled, Enabled, Enabled + boost]
 
 // Fullscreen mode preference
-PreferredDisplayMode:0.0 = "Fullscreen" // one of [Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
+PreferredDisplayMode:0.0 = "Fullscreen borderless window" // one of [Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
 
 // Refresh rate of used monitor
 RefreshRate:0.0 = "60.015"
@@ -93,7 +93,7 @@ VSyncInMenu:0.0 = "false"
 WindowHeight:0.0 = "400" // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized:0.0 = "false"
+WindowMaximized:0.0 = "true"
 
 // Window width
 WindowWidth:0.0 = "640" // 0 to 32767
