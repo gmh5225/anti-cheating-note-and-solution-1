@@ -16,9 +16,11 @@ WmiPrvSE
 conhost
 fontdrvhost
 ctfmon
+smartscreen
 csc
 cvtres
 SIGIL
+WindowTitleRemover
 NVIDIA Web Helper
 nvcontainer
 NVIDIA Share
@@ -41,6 +43,12 @@ gldriverquery64
 gldriverquery
 za4
 za4_dx12
+Cuphead
+ForzaHorizon4
+ForzaWebHelper
+BlossomTales2
+Splatter_Steam
+
 
 
 
