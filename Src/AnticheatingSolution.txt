@@ -23,7 +23,7 @@
 - Change your PC internal IP in IPv4 properties when you can't connect into the games
 - Revert all advanced settings of network card, and change often ethernet network card MAC address with always same two first numbers corresponding to label of your card constructor
 - Report and block every cheaters under social tab of CoD
-- Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell, conhost, ShellExperienceHost to exploit protection with all features enable
+- Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell (C:\Windows\System32\WindowsPowerShell\v1.0), conhost, ShellExperienceHost to exploit protection with all features enable
 - Enable all security features from Windows security under Windows parameters, like node isolation, security against ransomeware adding all disks (C:/ and D:/), exploit protection, etc
 - From protection against ransomware, allow exe to access folders: Battle.net Launcher.exe, Battle.net.exe, Agent.exe (x2), ciine.exe, TextEditor.exe, StopIt.exe, MMC.exe
 - Set better graphic performance option for your game from display properties under graphic parameters

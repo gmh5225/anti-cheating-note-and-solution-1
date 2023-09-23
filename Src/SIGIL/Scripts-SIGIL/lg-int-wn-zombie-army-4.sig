@@ -77,6 +77,7 @@ if (getstate[0])
     int_1_SendS         = WiimoteNunchuckStateRawJoystickY <= -60f; /* Reculer */
     int_1_SendSpace     = WiimoteNunchuckStateC; /* Frapper fort */
     int_1_SendLeftShift = WiimoteNunchuckStateZ; /* Courir */
+    int_1_SendE         = WiimoteNunchuckStateZ; /* Poumons */
     int_1_SendV         = WiimoteNunchuckStateRawValuesY > 33f; /* Coup de pieds */
     int_1_SendEscape    = WiimoteButtonStateTwo; /* Passer */
     int_1_SendTab       = WiimoteButtonStateOne; /* Map */

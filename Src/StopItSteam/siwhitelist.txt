@@ -17,6 +17,7 @@ conhost
 fontdrvhost
 ctfmon
 smartscreen
+dllhost
 csc
 cvtres
 SIGIL
