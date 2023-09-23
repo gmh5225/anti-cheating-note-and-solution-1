@@ -102,7 +102,7 @@ if (getstate[0])
             getstate[1] = false;
         }
     }
-    if (int_1_SendSpace | int_1_SendLeftShift | int_1_SendV | int_1_SendEscape | int_1_SendTab | int_1_SendR | int_1_SendF | int_1_SendT | int_1_SendG | int_1_SendY | int_1_SendU | int_1_SendX | int_1_SendC)
+    if (int_1_SendSpace | (int_1_SendLeftShift & !int_1_SendE) | int_1_SendV | int_1_SendEscape | int_1_SendTab | int_1_SendR | int_1_SendF | int_1_SendT | int_1_SendG | int_1_SendY | int_1_SendU | int_1_SendX | int_1_SendC)
     {
         getstate[1] = false;
     }
