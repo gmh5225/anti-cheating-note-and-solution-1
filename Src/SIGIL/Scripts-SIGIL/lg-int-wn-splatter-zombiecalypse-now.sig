@@ -1,4 +1,4 @@
-viewpower1x = 1f;
+﻿viewpower1x = 1f;
 viewpower2x = 0f;
 viewpower3x = 0f;
 viewpower1y = 1f;
