@@ -1,6 +1,0 @@
-46.101.64.59
-139.59.199.85
-server-18-66-147-4.fra60.r.cloudfront.net, 18.66.147.4
-s3.eu-west-3.amazonaws.com, 16.12.18.17
-server-13-224-192-222.fra2.r.cloudfront.net, 13.224.192.222
-s3.eu-west-3.amazonaws.com, 52.95.155.93

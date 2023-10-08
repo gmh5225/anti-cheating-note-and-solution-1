@@ -13,6 +13,7 @@ winlogon
 LsaIso
 audiodg
 WmiPrvSE
+consent
 conhost
 fontdrvhost
 ctfmon
@@ -49,6 +50,16 @@ ForzaHorizon4
 ForzaWebHelper
 BlossomTales2
 Splatter_Steam
+Disney_Speedstorm_x64_rtl
+RocketLeague
+Splasher
+Cuphead
+BlossomTales2
+NeonAbyss
+
+
+
+
 
 
 
