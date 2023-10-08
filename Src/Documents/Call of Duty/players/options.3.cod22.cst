@@ -57,7 +57,7 @@ ConstrainMouse:0.0 = "false"
 DisplayGamma:0.0 = "BT709_sRGB" // one of [BT709_sRGB, BT709_BT1886]
 
 // Fullscreen mode
-DisplayMode:0.0 = "Fullscreen borderless window" // one of [Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
+DisplayMode:0.0 = "Fullscreen" // one of [Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
 
 // Enable focused mode
 FocusedMode:0.0 = "false"
@@ -72,7 +72,7 @@ Monitor:0.0 = "    DTV      "
 NvidiaReflex:0.0 = "Disabled" // one of [Disabled, Enabled, Enabled + boost]
 
 // Fullscreen mode preference
-PreferredDisplayMode:0.0 = "Fullscreen borderless window" // one of [Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
+PreferredDisplayMode:0.0 = "Fullscreen" // one of [Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
 
 // Refresh rate of used monitor
 RefreshRate:0.0 = "60.015"
@@ -109,7 +109,7 @@ WindowY:0.0 = "-32768" // -32768 to 32767
 //
 
 // Apply custom framerate limit
-CapFps:0.0 = "true"
+CapFps:0.0 = "false"
 
 // Adds blur on out of focus areas when aiming down sights
 DepthOfField:0.0 = "false"
