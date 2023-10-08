@@ -16,7 +16,7 @@
 - Change often MAC network adress of your ethernet network card because there's spoofing of IP of official server due to MAC address hashing table hacked from network routers between your rooter and official servers, but if you using Wi-Fi and MAC address filtering under your modem settings it's boring
 - Change MAC adress of your PC often from Ethernet network card properties
 - Set your network to public and with only Ethernet, no Wi-Fi
-- Uninstall all programs but let ethernet card drivers, audio and video drivers (Nvidia audio and graphic drivers)
+- Uninstall all programs but let ethernet card drivers, audio and video drivers (Nvidia audio and graphic drivers), and redistributable frameworks (the most recents)
 - Disable from task manager all the programs starting automatically at PC start
 - Install your prefered launcher, downloaded from edge, for downloading and playing your prefered games, i.e. battle.net
 - Repair files often from your prefered launcher and set automatically close launcher when game starts
@@ -35,19 +35,20 @@
 - Use Windows firewall rules, exploit protection and folder access against ransomeware as anti-cheat
 - For each Windows application, go to parameters of it by clicking right on it and disable background running
 - Disable all useless cards like Wi-Fi and Bluetooth cards, disable all ethernet network card features from card configuration and let only IPv4 installed from network properties
+- Disable all useless peripherals from peripheral manager and from peripherals and printers under control panel
 - Set manually your IPv4 settings from network properties under network and share center in control panel
 - Disable NetBios on TCP/IP from server WINS tab under IPv4 properties
 - Norton 360 Gaming or Razer Cortex is useless for optimization and/or security
 - Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
 - Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
 - Set your screen native resolution for your game in your game graphic options
-- Uninstall programs if it eats memory, then reinstall it with last installer, if you use it
+- Uninstall programs if it eats memory, then reinstall it with last installer, if you are using it
 - Delete everything in %temp% folder, even masked elements
 - Delete the maxinmum of useless things in folders %programfiles(x86)%, %programdata%, %localappdata%, %appdata%
-- Clean the disks from administrative tools under control panel
-- Launch repair tool when restarting pressing shift key with click on restart
+- Clean the disks often from administrative tools under control panel
+- Launch repair tool often when restarting pressing shift key with click on restart
 - Launch battle.net, your games and applications without administrative privilege
-- Set IPv4 properties to default under network properties, and set Windows firewall rules to default for resolving your internal IP, then import your rules again if you have an issue for connecting in CoD
+- Set IPv4 properties to default under network properties, and set Windows firewall rules to default for resolving your internal IP, then import your rules again if you have an issue for connecting in Call of Duty
 - Delete call of duty game folder under documents sometimes, when your game is open (use Alt+F4, Alt+Enter is to switch fullscreen/windowed)
 - Add your games and applications for access folders (D:/, C:/) you protected when using protection against ransomware
 - Enable all exploit protection for default system settings under protection tools from Windows parameters
@@ -75,12 +76,7 @@ ipconfig/release
 ipconfig/renew
 - Use only DNS server of your ISP
 - DNS to not block if using NextDNS as DNS server
-cloudfront.net
-callofduty.com
-activision.com
-battle.net
-blizzard.com
-demonware.net
+cloudfront.net, callofduty.com, activision.com, battle.net, blizzard.com, demonware.net
 - Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
 - Saving your games you add from Xbox application on a SSD needs it be formatted in NTFS format
 - Disable options of applications from Windows parameters, don't let it execute in background
