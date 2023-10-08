@@ -14,6 +14,11 @@ LsaIso
 audiodg
 WmiPrvSE
 conhost
+smartscreen
+consent
+perfmon
+mmc
+TextEditor
 fontdrvhost
 ctfmon
 cod

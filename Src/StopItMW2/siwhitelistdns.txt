@@ -1,4 +1,6 @@
-﻿
+﻿.eu-central-1.compute.amazonaws.com
+.1e100.net
+.r.cloudfront.net
 
 
 

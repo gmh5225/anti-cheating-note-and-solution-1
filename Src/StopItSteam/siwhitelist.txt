@@ -13,7 +13,11 @@ winlogon
 LsaIso
 audiodg
 WmiPrvSE
+smartscreen
 consent
+perfmon
+mmc
+TextEditor
 conhost
 fontdrvhost
 ctfmon
