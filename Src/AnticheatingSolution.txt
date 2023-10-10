@@ -157,4 +157,5 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Manag
 - Set manually your VRAM and define values of 128000 Mo for all disks from advanced system parameters under control panel, and also disable the option of secure disks from the button configure for better performances
 - Disable memory compression using powershell run with administrative privilege with the following command
 Disable-MMAgent -mc
+- To add a program in Windows firewall, you can open task manager (ctrl+shift+esc) for localize the file path by opening the folder where the program is, and then see it in explorer bar to copy and paste in Windows firewall rule
 - Use Windows firewall rules, and also configs of CoD to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, otherwise it won't install, but you can still install by enabling again services, disabling exploit protections, installing Digicert certificate, and run launcher with administrative privilege 
