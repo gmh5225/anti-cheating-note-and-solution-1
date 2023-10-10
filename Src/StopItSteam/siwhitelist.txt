@@ -22,9 +22,6 @@ conhost
 fontdrvhost
 ctfmon
 smartscreen
-dllhost
-csc
-cvtres
 SIGIL
 WindowTitleRemover
 NVIDIA Web Helper
