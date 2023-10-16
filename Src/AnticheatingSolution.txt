@@ -8,6 +8,7 @@
 - Enabling UAC to highest level is allowing to know if battle.net is launched as admin and so games, and so restart battle.net until it's not running as admin
 - Uninstall every apps and disable every features from Windows parameters and functionnalities, let only drivers of graphic, audio and ethernet cards, and redistributable frameworks
 - Disable all functionnalites but let frameworks 3.5 and 4.8 from programs and functionnalities under control panel
+- Disable automatic reorganization of icons under the desktop screen
 - Uninstall all redistributable packages and install redistributable packages found on Microsoft official website
 - Set parameter for better performance and disable remote connection from advanced system under control panel
 - Delete C:\Windows\System32\wlanext.exe, C:\Windows\System32\ibtsiva.exe, and C:\Program Files\Intel\WiFi (dllhost), and use ethernet wire
