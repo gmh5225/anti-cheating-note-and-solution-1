@@ -42,6 +42,7 @@
 - Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
 - Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
 - Set your screen native resolution for your game in your game graphic options
+- Set audio quality to lowest value, disable all audio effects and features, disable microphone and stereo mixer, disable all audio cards you don't use, under audio card parameters from settings and Windows parameters, to avoid audio crash and cool down your ears
 - Uninstall programs if it eats memory, then reinstall it with last installer, if you are using it
 - Delete everything in %temp% folder, even masked elements
 - Delete the maxinmum of useless things in folders %programfiles(x86)%, %programdata%, %localappdata%, %appdata%
