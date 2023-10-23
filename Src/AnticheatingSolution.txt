@@ -39,7 +39,7 @@
 - Disable all useless peripherals from peripheral manager and from peripherals and printers under control panel
 - Set manually your IPv4 settings from network properties under network and share center in control panel
 - Disable NetBios on TCP/IP from server WINS tab under IPv4 properties
-- Norton 360 Gaming or Razer Cortex is useless for optimization and/or security
+- Norton 360 Gaming or Razer Cortex is useless for optimization and/or security, but ExitLag is a good tool to use with all features enable
 - Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
 - Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
 - Set your screen native resolution for your game in your game graphic options
