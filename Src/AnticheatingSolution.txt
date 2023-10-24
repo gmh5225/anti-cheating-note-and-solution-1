@@ -14,15 +14,13 @@
 - Delete C:\Windows\System32\wlanext.exe, C:\Windows\System32\ibtsiva.exe, and C:\Program Files\Intel\WiFi (dllhost), and use ethernet wire
 - Use wired ethernet for your gaming PC and use Wi-Fi with MAC filter for your other devices
 - It's better to use only Ethernet card with a RJ45 wire connected to your modem, setting network public instead of private, and uninstall from programs and functionnalities under control panel, the Wi-Fi framework, but let Ethernet framework
-- Change often MAC network adress of your ethernet network card because there's spoofing of IP of official server due to MAC address hashing table hacked from network routers between your rooter and official servers, but if you using Wi-Fi and MAC address filtering under your modem settings it's boring
-- Change MAC adress of your PC often from Ethernet network card properties
+- Revert all advanced settings of network card, and change often ethernet network card MAC address with always same two first numbers corresponding to label of your card constructor (from configuration of ethernet network card under control panel), because there's spoofing of IP of official server due to MAC address hashing table hacked from network routers between your rooter and official servers, but if you using Wi-Fi and MAC address filtering under your modem settings it's boring
 - Set your network to public and with only Ethernet, no Wi-Fi
 - Uninstall all programs but let ethernet card drivers, audio and video drivers (Nvidia audio and graphic drivers), and redistributable frameworks (the most recents)
 - Disable from task manager all the programs starting automatically at PC start
 - Install your prefered launcher, downloaded from edge, for downloading and playing your prefered games, i.e. battle.net
 - Repair files often from your prefered launcher and set automatically close launcher when game starts
 - Change your PC internal IP in IPv4 properties when you can't connect into the games
-- Revert all advanced settings of network card, and change often ethernet network card MAC address with always same two first numbers corresponding to label of your card constructor
 - Report and block every cheaters under social tab of CoD
 - Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell (C:\Windows\System32\WindowsPowerShell\v1.0), conhost, ShellExperienceHost to exploit protection with all features enable
 - Enable all security features from Windows security under Windows parameters, like node isolation, security against ransomeware adding all disks (C:/ and D:/), exploit protection, etc
@@ -39,7 +37,7 @@
 - Disable all useless peripherals from peripheral manager and from peripherals and printers under control panel
 - Set manually your IPv4 settings from network properties under network and share center in control panel
 - Disable NetBios on TCP/IP from server WINS tab under IPv4 properties
-- Norton 360 Gaming or Razer Cortex is useless for optimization and/or security, but ExitLag is a good tool to use with all features enable
+- Norton 360 Gaming or Razer Cortex or WTFast or ExitLag or Mudfish or ProtonVPN or NordVPN or ExpressVPN are all useless for optimization or security, even with all features enable
 - Set the command line parameters -d3d11 -high, to launch games with DirectX 11 and high CPU process priority for better performances, from your game settings under Battle.net parameters
 - Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
 - Set your screen native resolution for your game in your game graphic options
@@ -163,6 +161,4 @@ Enable-MMAgent -ApplicationPreLaunch -PageCombining -MemoryCompression
 Set-MMAgent -ThrottleLimit 0 -MaxOperationAPIFiles 8192
 - To add a program in Windows firewall, you can open task manager (ctrl+shift+esc) for localize the file path by opening the folder where the program is, and then see it in explorer bar to copy and paste in Windows firewall rule
 - You can test your Xbox controller by typing joy.cpl from Run tool to open with the keyboard keys shortcut Windows + R, and also open control panel by typing it
-- I created Windows firewall rules for Call of Duty Modern Warfare 2 by adding IP of Blizzard, Cloudfront, and Gameservers from bgpview.io searching about IPv4 prefix of AS-CHOOPA corresponding to servers hosting matches, helped by perfmon.exe and StopIt.exe
 - Use Windows firewall rules, and also configs of CoD to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, otherwise it won't install, but you can still install by enabling again services, disabling exploit protections, installing Digicert certificate, and run launcher with administrative privilege, and also use only recent redistributable frameworks found on official Microsoft website
-- Call of Duty is a big rip off in regards of cheaters, and with bundles and skins you buy and unlocks in battlepass, but you don't keep like Fortnite
