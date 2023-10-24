@@ -93,7 +93,7 @@ VSyncInMenu:0.0 = "false"
 WindowHeight:0.0 = "400" // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized:0.0 = "true"
+WindowMaximized:0.0 = "false"
 
 // Window width
 WindowWidth:0.0 = "640" // 0 to 32767
