@@ -25,3 +25,6 @@ Get-AppxPackage *dev* | Remove-AppxPackage
 Get-AppxPackage *cloud* | Remove-AppxPackage
 Get-AppxPackage * | Remove-AppxPackage
 Set-ProcessMitigation -PolicyFilePath C:\ExploitConfigfile.xml
+Enable-MMAgent -ApplicationLaunchPrefetching
+Enable-MMAgent -ApplicationPreLaunch -PageCombining -MemoryCompression
+Set-MMAgent -ThrottleLimit 0 -MaxOperationAPIFiles 8192
