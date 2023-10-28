@@ -21,7 +21,9 @@
 - Install your prefered launcher, downloaded from edge, for downloading and playing your prefered games, i.e. battle.net
 - Repair files often from your prefered launcher and set automatically close launcher when game starts
 - Change your PC internal IP in IPv4 properties when you can't connect into the games
-- Report and block every cheaters under social tab of CoD
+- Report and block every cheaters under social tab of Call of Duty, when someone is suspicious in the killcams, leave the match everytimes, because it's dangerous for your PC and private data, and it helps the someone to be reported by other players like you, if it's a cheater he will get banned, and you will have more good matches, and being less annoyed
+- There's a little way to encounter less cheaters in multiplayer games, it consist to report and block cheaters, each time you have any doubt, and at first, then as soon as possible, when the block list is full, to empty the list, it's because cheaters can change with their hacks, their display names and platforms, but not account, and if you not do that, you will always fight against these little jerky noobs in every matches you want to play and in a raw
+- Remove cheaters you blocked after your list is full, then you can add again the new cheaters, for having true gamers in your matches and not be harrassed everytime by these jerks, and so devs can take actions more easy with reports of cheating to get rid of cheaters in their games
 - Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell (C:\Windows\System32\WindowsPowerShell\v1.0), conhost, ShellExperienceHost to exploit protection with all features enable
 - Enable all security features from Windows security under Windows parameters, like node isolation, security against ransomeware adding all disks (C:/ and D:/), exploit protection, etc
 - From protection against ransomware, allow exe to access folders: Battle.net Launcher.exe, Battle.net.exe, Agent.exe (x2), ciine.exe, TextEditor.exe, MMC.exe
@@ -95,7 +97,6 @@ Press Windows key + R and type in %programfiles(x86)%
 Delete anything related to Blizzard or Battle.net
 Do the same for %temp%, %programdata%, %localappdata%, %appdata%
 - Finally uninstall and reinstall battle.net, copy your game files, uninstall the game, format your SSD with default settings, and copy again your game files, and then reinstall your game by locate game files, or simply, uninstall the game, and reinstall it disabling auto update, enabling english language, and make a copy of fresh files, do it each time there are too much cheaters, it's probably they changed your game files by injecting a malware
-- Remove cheaters you blocked after your list is full, then you can add again the new cheaters, for having true gamers in your matches and not be harrassed everytime by these jerks
 - Set battle.net to quit when launching a game, and make manually update of your game and launch it after that without firewall blocking rules for both, taking care to not break the game files to not have to redownload it
 - Disable voice tchat, disable text tchat, disable all graphic features under game options
 - If you have a bad connection for your matches and it's fill with cheaters, prefer in it less players as possible
@@ -125,7 +126,6 @@ Do the same for %temp%, %programdata%, %localappdata%, %appdata%
 - If you think you are shadowban in CoD, it's probably hackers triggered it with game config files changing it, so delete it and make again your game config, even reinstall CoD for prevent it and be sure there's no trace remaining, you can check if you are shadow banned in Call of Duty with the link: https://support.activision.com/ban-appeal
 - Cheat program used by cheaters have hacks exploiting vulnerabilities for always forward good and fair players in hacked lobbies, vulnerabilities also destroy your PC
 - If you are forwarded in same match after leaving one, or with same cheaters you blocked, you are forwarded in hacked lobbies, I've tried everything for Call of Duty, there's almost nothing running, only right firewall rules
-- There's a little way to encounter less cheaters in multiplayer games, it consist to report and block cheaters, each time you have any doubt, and at first, then as soon as possible, when the block list is full, to empty the list, it's because cheaters can change with their hacks, their display names and platforms, but not account, and if you not do that, you will always fight against these little jerky noobs in every matches you want to play and in a raw
 - Disable fast boot at PC start from alimentation options under control panel, opening the tab choose action button at left side, and then clicking on the link modify advanced options, with the first checkbox under shut down parameters
 - Enable high performances for power option (alimentation manager) under Windows parameters and control panel
 - Enable game mode under Windows parameters for better graphic card manager
