@@ -141,7 +141,7 @@ Do the same for %temp%, %programdata%, %localappdata%, %appdata%
 - You can use poweshell to export/import exploit protection settings (to run with administrative privilege) with the two following commands
 Get-ProcessMitigation -RegistryConfigFilePath C:\ExploitConfigfile.xml
 Set-ProcessMitigation -PolicyFilePath C:\ExploitConfigfile.xml
-then add/delete dllhost.exe manually from exploit protection otherwise you won't be able to install or uninstall programs, and other stuffs like that
+then add/delete dllhost.exe manually from exploit protection otherwise you won't be able to install or uninstall programs and to have administrative rights, and other stuffs like that
 - Use the following commands of Powershell run with administrative privilege to uninstall useless Windows packages
 Get-AppxPackage * | Remove-AppxPackage
 - You can force ASLR if you play only Call of Duty with Battle.net by using the regedit key MoveImages:
