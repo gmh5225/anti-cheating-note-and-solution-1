@@ -141,7 +141,7 @@ Do the same for %temp%, %programdata%, %localappdata%, %appdata%
 - You can use poweshell to export/import exploit protection settings (to run with administrative privilege) with the two following commands
 Get-ProcessMitigation -RegistryConfigFilePath C:\ExploitConfigfile.xml
 Set-ProcessMitigation -PolicyFilePath C:\ExploitConfigfile.xml
-then add/delete dllhost.exe manually from exploit protection otherwise you won't be able to install or uninstall programs and to have administrative rights, and other stuffs like that
+then add/delete dllhost.exe manually from exploit protection otherwise you won't be able to install or uninstall programs and to have administrative rights, and other stuffs like that, you also need to disconnect/connect your session to take effect
 - Use the following commands of Powershell run with administrative privilege to uninstall useless Windows packages
 Get-AppxPackage * | Remove-AppxPackage
 - You can force ASLR if you play only Call of Duty with Battle.net by using the regedit key MoveImages:
@@ -160,4 +160,8 @@ Enable-MMAgent -ApplicationPreLaunch -PageCombining -MemoryCompression
 Set-MMAgent -ThrottleLimit 0 -MaxOperationAPIFiles 8192
 - To add a program in Windows firewall, you can open task manager (ctrl+shift+esc) for localize the file path by opening the folder where the program is, and then see it in explorer bar to copy and paste in Windows firewall rule
 - You can test your Xbox controller by typing joy.cpl from Run tool to open with the keyboard keys shortcut Windows + R, and also open control panel by typing it
+- Grant acces to folder of Call of Duty only for adminstrators with the following powershell command
+icacls "D:\Battlenet Games" /inheritance:r /grant Administrators:F
+or if you can't, you need to install the game under C: disk, or just change permissions of folder with properties allowing owner administrator, or admistrators, and disable heriting, and then convert permissions to explicit, and so disable permission of user(s) for modification and all others things like execution or write, it's because hackers are modifying the following files
+shmem, D3D12Core.dll, game.icn, telescope_index.dat
 - Use Windows firewall rules, and also configs of CoD to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, i.e. battle.net, otherwise it won't install, but you can still install by enabling again services, disabling exploit protections, installing Digicert certificate, and run launcher with administrative privilege, and also use only recent redistributable frameworks found on official Microsoft website
