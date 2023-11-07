@@ -160,7 +160,7 @@ Enable-MMAgent -ApplicationPreLaunch -PageCombining -MemoryCompression
 Set-MMAgent -ThrottleLimit 0 -MaxOperationAPIFiles 8192
 - To add a program in Windows firewall, you can open task manager (ctrl+shift+esc) for localize the file path by opening the folder where the program is, and then see it in explorer bar to copy and paste in Windows firewall rule
 - You can test your Xbox controller by typing joy.cpl from Run tool to open with the keyboard keys shortcut Windows + R, and also open control panel by typing it, and also control printers by typing it
-- You can close your session or open task manager to close a program with the keyboard keys shortcut ctrl+alt+dot
+- You can close your session or open task manager to close a program with the keyboard keys shortcut ctrl+alt+del
 - You need to know the effects of the keys ctrl, shift, double click, and shortcuts ctrl+a, ctrl+c, ctrl+v, ctrl+x, ctrl+s
 - Grant acces to folder of Call of Duty only for adminstrators with the following powershell command
 icacls "D:\Battlenet Games" /inheritance:r /grant Administrators:F
