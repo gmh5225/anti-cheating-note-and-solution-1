@@ -84,10 +84,10 @@ Resolution:0.0 = "1360x768"
 ResolutionMultiplier:0.0 = "93" // 0 to 200
 
 // Synchronizes framerate with refresh rate to prevent screen tearing issues
-VSync:0.0 = "0" // 0 to 4
+VSync:1.0 = "Disabled" // one of [Disabled, Full, Half, Third, Quarter]
 
 // Vsync while in menus only
-VSyncInMenu:0.0 = "false"
+VSyncInMenu:1.0 = "Disabled" // one of [Disabled, Full, Half, Third, Quarter]
 
 // Window height
 WindowHeight:0.0 = "400" // 0 to 32767
@@ -315,4 +315,10 @@ RendererWorkerCount:0.0 = "3" // -1 to 16
 
 // Set a target fraction of your PC's video memory to be used by the game
 VideoMemoryScale:0.0 = "0.850000" // 0.000000 to 2.000000
+
+// Synchronizes framerate with refresh rate to prevent screen tearing issues
+VSync:0.0 = "" // 0 to 4
+
+// Vsync while in menus only
+VSyncInMenu:0.0 = ""
 
