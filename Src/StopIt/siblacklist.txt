@@ -1,3 +1,25 @@
 notepad
+wermgr
+WerFault
+backgroundTaskHost
+SearchHost
+UserOOBEBroker
+LockApp
+NvProfileUpdater64
+OpenWith
+DsmUserTask
+Memory Compression
+ShellExperienceHost
+rundll32
+taskhostw
+GameBarPresenceWriter
+sc
+WmiApSrv
+MpCmdRun
+dllhost
+ctfmon
+ApplicationFrameHost
+RuntimeBroker
+Registry
 
 
