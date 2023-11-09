@@ -8,7 +8,6 @@ LockApp
 NvProfileUpdater64
 OpenWith
 DsmUserTask
-Memory Compression
 ShellExperienceHost
 rundll32
 taskhostw
@@ -17,9 +16,11 @@ sc
 WmiApSrv
 MpCmdRun
 dllhost
-ctfmon
 ApplicationFrameHost
 RuntimeBroker
-Registry
+SystemSettings
+WMIADAP
+MoUsoCoreWorker
+UsoClient
 
 
