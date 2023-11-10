@@ -22,5 +22,8 @@ SystemSettings
 WMIADAP
 MoUsoCoreWorker
 UsoClient
+sppsvc
+TiWorker
+TrustedInstaller
 
 
