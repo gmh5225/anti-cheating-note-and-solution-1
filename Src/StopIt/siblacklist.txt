@@ -25,5 +25,8 @@ UsoClient
 sppsvc
 TiWorker
 TrustedInstaller
+dxgiadaptercache
+wsqmcons
+SgrmBroker
 
 
