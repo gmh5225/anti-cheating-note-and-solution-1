@@ -26,3 +26,4 @@ Concatenate:
 	ffmpeg -f concat -i input.txt -c copy output.mp4
 - With ffmpeg you can crop in time a video without the need of an encoder useless for this purpose
 ffmpeg -ss 00:01:00 -to 00:02:00 -i input.mp4 -c copy output.mp4
+- With GeForceExperience, you need to allow Windows firewall rules, like with the configuration I made for Steam

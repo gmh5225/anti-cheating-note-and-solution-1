@@ -177,4 +177,6 @@ By making nothing and bad, workers are able to deliver stuffs to employers for c
 They making believe to have worked hard and sometimes alone and first on a subject, but they just have stolen indies
 - For some reasons, like hackers and haters are targeting you, using a VPN is better than using Windows firewall, but some settings are required, let the services running like SSDP service, Telephonic service, and Telephony, NetBios service, set to default properties of IPv4 from network card, and all services installed of network card, and set to default Windows and modem firewall
 - You can compare Windows integrated VPN using vpnbook p2p servers (not servers optimized for the web) with WTFast, ExitLag, and mudfish
-- For using it on consoles, you can share connection from a PC using a VPN, wired with a RJ-45 cable
+- For using VPN on consoles, you can share connection from a PC using a VPN, wired with a RJ-45 cable
+- If you want to play a multiplayer game, find one oldest abandonned by hackers, because further updates have broken their hacks
+- If you are busy to play multiplayer games, prefer to create contents by recording and streaming solo games
