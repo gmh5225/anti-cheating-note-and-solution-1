@@ -28,5 +28,19 @@ TrustedInstaller
 dxgiadaptercache
 wsqmcons
 SgrmBroker
+SIHClient
+DeviceCensus
+provtool
+Defrag
+la57setup
+tzsync
+lpremove
+dmclient
+dstokenclean
+DiskSnapshot
+DismHost
+AppHostRegistrationVerifier
+cleanmgr
+conhost
 
 

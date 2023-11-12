@@ -200,7 +200,7 @@ WindowWidth:0.0 = "640" // 0 to 32767
 WindowHeight:0.0 = "400" // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized:0.0 = "false"
+WindowMaximized:0.0 = "true"
 
 // Monitor name of the monitor used to display the game
 Monitor:0.0 = "    DTV      "
@@ -258,7 +258,7 @@ BulletImpacts:0.0 = "false"
 Tessellation:0.0 = "0_Off" // one of [0_Off, 1_Near, 2_All]
 
 // Models quality level
-ModelQuality:0.0 = "High Quality" // one of [Low Quality, Medium Quality, High Quality]
+ModelQuality:0.0 = "Low Quality" // one of [Low Quality, Medium Quality, High Quality]
 
 // Corpses culling threshold
 CorpsesCullingThreshold:0.0 = "0.750000" // 0.500000 to 1.000000
@@ -339,7 +339,7 @@ HDR:0.0 = "Automatic" // one of [Off, On, Automatic]
 ShaderQuality:0.0 = "Low" // one of [Default, Medium, Low]
 
 // Enable Variable Rate Shading
-VRS:0.0 = "true"
+VRS:0.0 = "false"
 
 // Enable deferred physics
 DeferredPhysics:0.0 = "Low Quality" // one of [Low Quality, Medium Quality, High Quality, Developer]
