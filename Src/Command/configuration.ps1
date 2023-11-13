@@ -29,3 +29,4 @@ Enable-MMAgent -ApplicationLaunchPrefetching
 Enable-MMAgent -ApplicationPreLaunch -PageCombining -MemoryCompression
 Set-MMAgent -ThrottleLimit 0 -MaxOperationAPIFiles 8192
 icacls "D:\Battlenet Games" /inheritance:r /grant Administrators:F
+Get-ScheduledTask * | Unregister-ScheduledTask -Confirm:$false

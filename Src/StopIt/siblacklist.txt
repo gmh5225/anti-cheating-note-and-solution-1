@@ -42,5 +42,9 @@ DismHost
 AppHostRegistrationVerifier
 cleanmgr
 conhost
+upfc
+StartMenuExperienceHost
+SpeechModelDownload
+UCPDMgr
 
 
