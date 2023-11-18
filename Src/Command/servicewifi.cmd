@@ -1,4 +1,6 @@
-﻿sc config "StiSvc" start= disabled
+﻿sc config "p2pimsvc" start= disabled
+sc stop "p2pimsvc"
+sc config "StiSvc" start= disabled
 sc stop "StiSvc"
 sc config "COMSysApp" start= disabled
 sc stop "COMSysApp"

@@ -1,4 +1,6 @@
-﻿sc config "StiSvc" start= auto
+﻿sc config "p2pimsvc" start= auto
+sc start "p2pimsvc"
+sc config "StiSvc" start= auto
 sc start "StiSvc"
 sc config "COMSysApp" start= auto
 sc start "COMSysApp"
