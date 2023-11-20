@@ -1,4 +1,8 @@
-﻿sc config "p2pimsvc" start= auto
+﻿sc config "KeyIso" start= auto
+sc start "KeyIso"
+sc config "iphlpsvc" start= auto
+sc start "iphlpsvc"
+sc config "p2pimsvc" start= auto
 sc start "p2pimsvc"
 sc config "StiSvc" start= auto
 sc start "StiSvc"

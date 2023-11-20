@@ -1,4 +1,8 @@
-﻿sc config "p2pimsvc" start= disabled
+﻿sc config "KeyIso" start= disabled
+sc stop "KeyIso"
+sc config "iphlpsvc" start= disabled
+sc stop "iphlpsvc"
+sc config "p2pimsvc" start= disabled
 sc stop "p2pimsvc"
 sc config "StiSvc" start= disabled
 sc stop "StiSvc"
