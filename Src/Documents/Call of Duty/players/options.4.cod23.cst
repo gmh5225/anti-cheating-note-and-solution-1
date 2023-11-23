@@ -200,7 +200,7 @@ WindowWidth:0.0 = "640" // 0 to 32767
 WindowHeight:0.0 = "400" // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized:0.0 = "true"
+WindowMaximized:0.0 = "false"
 
 // Monitor name of the monitor used to display the game
 Monitor:0.0 = "    DTV      "
