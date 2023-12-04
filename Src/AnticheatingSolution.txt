@@ -77,7 +77,7 @@ netsh interface ipv4 set dns name="Wi-Fi" static 8.8.4.4 index=2
 - Change your modem/router DHCP config for set internal IP of buisness like, i.e. 10.0.0.1, and then in cmd.exe type as following:
 ipconfig/release
 ipconfig/renew
-- Use only DNS server of your ISP
+- Use DNS server of CloudFlare (1.1.1.1) over HTTPS from IPv4 manual settings and Windows parameters under network tab to enable encryption
 - DNS to not block if using NextDNS as DNS server
 cloudfront.net, callofduty.com, activision.com, battle.net, blizzard.com, demonware.net
 - Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
