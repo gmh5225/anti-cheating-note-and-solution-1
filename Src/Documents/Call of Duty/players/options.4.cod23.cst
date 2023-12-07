@@ -107,9 +107,6 @@ MicPostLoudAggressiveTime:0.0 = "5.000000" // 0.000000 to 300.000000
 // Speaker device requested by the user
 SoundOutputDevice:0.0 = ""
 
-// Number of output channels requested by the user. Valid values are 2, 4, 6, 8, 16. Zero means use system default.
-SoundWantedOutputDeviceNumChannels:0.0 = "0" // 0 to 16
-
 // Microphone device requested by the user
 SoundInputDevice:0.0 = ""
 
@@ -200,7 +197,7 @@ WindowWidth:0.0 = "640" // 0 to 32767
 WindowHeight:0.0 = "400" // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized:0.0 = "false"
+WindowMaximized:0.0 = "true"
 
 // Monitor name of the monitor used to display the game
 Monitor:0.0 = "    DTV      "
@@ -212,7 +209,7 @@ RefreshRate:0.0 = "60.015"
 VSync:0.1 = "disabled" // one of [disabled, 100%, 50%, 33%, 25%]
 
 // Vsync while in menus only
-VSyncInMenu:0.1 = "disabled" // one of [disabled, 100%, 50%, 33%, 25%]
+VSyncInMenu:1.1 = "100%" // one of [disabled, 100%, 50%, 33%, 25%]
 
 // Fullscreen Resolution
 Resolution:0.0 = "1360x768"
@@ -300,7 +297,7 @@ SSAOTechnique:0.0 = "Off" // one of [Off, GTAO, MDAO, GTAO & MDAO]
 SSRMode:0.0 = "Off" // one of [Off, Deferred LQ, Deferred HQ]
 
 // User preferred anti-aliasing technique
-AATechniquePreferred:0.2 = "Filmic SMAA T2x" // one of [Filmic SMAA T2x, XeSS, FSR2]
+AATechniquePreferred:0.2 = "Filmic SMAA T2x" // one of [Filmic SMAA T2x, XeSS, FSR 2/3]
 
 // Reflection probe relighting update stages
 ReflectionProbeRelighting:0.0 = "2" // 1 to 4
@@ -322,6 +319,9 @@ AMDFidelityFX:0.0 = "Off" // one of [Off, CAS, FSR 1, FSR 2]
 
 // Strength for Contrast Adaptive Sharpening (CAS)
 AMDContrastAdaptiveSharpeningStrength:0.0 = "0.500000" // 0.000000 to 1.000000
+
+// Activate FSR 3 Frame Interpolation
+FSRFrameInterpolation:0.0 = "false"
 
 // Enable NVIDIA Image Scaling
 NVIDIAImageScaling:0.0 = "false"
@@ -366,7 +366,7 @@ VirtualTexturingMemoryMode:0.1 = "Small" // one of [Extra Small, Small, Medium, 
 WeatherGridVolumesQuality:0.0 = "Off" // one of [Ultra, High, Medium, Low, Off]
 
 // Enables DirectX Raytracing
-DxrMode:0.0 = "Off" // one of [Off, On, Ultra]
+DxrMode:0.0 = "Off" // one of [Off, On]
 
 // Enables optimisations when resizable-bar is supported by uploading more data to VRAM
 GPUUploadHeaps:0.0 = "true"
@@ -429,4 +429,10 @@ GamepadMenuScrollDelayRestEnd:0.0 = "50" // 0 to 1000
 
 // Menu scroll key-repeat delay acceleration from start to end, for repeats after the first, in milliseconds per repeat
 GamepadMenuScrollDelayRestAccel:0.0 = "2" // 0 to 1000
+
+// Number of output channels requested by the user. Valid values are 2, 4, 6, 8, 16. Zero means use system default.
+SoundWantedOutputDeviceNumChannels:0.0 = "0" // 0 to 16
+
+// Vsync while in menus only
+VSyncInMenu:0.1 = "0" // one of [disabled, 100%, 50%, 33%, 25%]
 
