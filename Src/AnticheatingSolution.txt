@@ -77,7 +77,7 @@ netsh interface ipv4 set dns name="Wi-Fi" static 8.8.4.4 index=2
 - Change your modem/router DHCP config for set internal IP of buisness like, i.e. 10.0.0.1, and then in cmd.exe type as following:
 ipconfig/release
 ipconfig/renew
-- Use DNS server of CloudFlare (1.1.1.1) over HTTPS from IPv4 manual settings and Windows parameters under network tab to enable encryption
+- Use secure DNS server of CloudFlare (1.1.1.1) over HTTPS from IPv4 manual settings and Windows parameters under network tab to enable encryption, or use other secure DNS server (Google 8.8.8.8, Quad9 9.9.9.9, etc), and change it often
 - DNS to not block if using NextDNS as DNS server
 cloudfront.net, callofduty.com, activision.com, battle.net, blizzard.com, demonware.net
 - Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
@@ -180,5 +180,5 @@ under administrative tools, from computer manager, in the tab disk manager, you 
 - Windows firewall blocks launch of installation and uninstallation of games with Battle.net, so set default rules when you want to do it
 - Use Windows firewall rules, and also configs of CoD to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, i.e. battle.net, otherwise it won't install, but you can still install by enabling again services, disabling exploit protections, installing Digicert certificate, and run launcher with administrative privilege, and also use only recent redistributable frameworks found on official Microsoft website
 - Personally I use a cheap laptop PC for working with Wi-Fi, just disabling some services and Appx packages, and a expensive gaming desktop PC for playing with all the optimization and the security explained here, but in both cases I use the right Windows firewall rules, for my laptop the simple rules and for my desktop the advanced rules, complementary I use the following programs
-Laptop PC: Edge, my-favours, Playcipe, Playtube, Playzer, Playtov, Playther, TextEditor, ms-paint, png2ico, Visual Studio, Visual Studio Code, rmoto, Epic Games website, Steam website, GitHub Desktop, USB storage device for files saving, logitech speakers, RecordYoutube, Youtube for upload
-Desktop PC: rmofo, StopIt, ChangeMAC, ciine, SIGIL, PGM, LocalAuthenticationCreator, TextEditor, PAssist, battle.net, Steam, FlydigiPcSpace, InterceptionTest, Interception, vJoy, SCP, ViGEm, Devreorder, console controllers, GeForceExperience for streaming on Youtube, ffmpeg with command lines, custom overlays, webcam with microphone, HDMI screen
+Laptop PC: Edge, my-favours, Playcipe, Playtube, Playzer, Playtov, Playto, Playther, TextEditor, ms-paint, png2ico, Visual Studio, Visual Studio Code, rmoto, Epic Games website, Steam website, GitHub Desktop, USB storage device for files saving, logitech speakers, RecordYoutube, Youtube for upload
+Desktop PC: rmofo, StopIt, ChangeMAC, ChangeDNS, ciine, SIGIL, TextEditor, PAssist, battle.net, Steam, FlydigiPcSpace, InterceptionTest, Interception, vJoy, SCP, ViGEm, Devreorder, console controllers, GeForceExperience for streaming on Youtube, ffmpeg with command lines, custom overlays, webcam with microphone, HDMI screen
