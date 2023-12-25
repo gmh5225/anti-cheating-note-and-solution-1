@@ -36,7 +36,7 @@ Get-ScheduledTask * | Unregister-ScheduledTask -Confirm:$false
 - Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU for better performances
 - Use Windows firewall rules, exploit protection and folder access against ransomeware as anti-cheat
 - For each Windows application, go to parameters of it by clicking right on it and disable background running
-- Disable all useless cards like Wi-Fi and Bluetooth cards, disable all ethernet network card features from card configuration and let only IPv4 installed from network properties
+- Disable all useless cards like Wi-Fi and Bluetooth cards, disable all ethernet network card features from card configuration (let enable only Wake on Magic Packet) and let only IPv4 installed from network properties
 - Disable all useless peripherals from peripheral manager and from peripherals and printers under control panel
 - Set manually your IPv4 settings from network properties under network and share center in control panel
 - Disable NetBios on TCP/IP from server WINS tab under IPv4 properties
@@ -179,6 +179,13 @@ under administrative tools, from computer manager, in the tab disk manager, you 
 - Sometimes battle.net don't save parameters, so you need to undo settings and redo, by saving twice
 - Windows firewall blocks launch of installation and uninstallation of games with Battle.net, so set default rules when you want to do it
 - Use Windows firewall rules, and also configs of CoD to copy in My Documents folder under your PC, optimize and secure your PC with settings and manually from infos here, restart your PC, see if it change something, but before install your favorite game launcher, i.e. battle.net, otherwise it won't install, but you can still install by enabling again services, disabling exploit protections, installing Digicert certificate, and run launcher with administrative privilege, and also use only recent redistributable frameworks found on official Microsoft website
+- For eliminate unwanted changes on your network, it’s better checking and changing hosts file in windows/system32/drivers/etc as following
+127.0.0.1 localhost
+::1 localhost
+And checking and changing protocol file in windows/system32/drivers/etc as following :
+tcp 6 TCP # Transmission control protocol
+udp 17 UDP # User datagram protocol
+Empty all other files in in windows/system32/drivers/etc
 - Personally I use a cheap laptop PC for working with Wi-Fi, just disabling some services and Appx packages, and a expensive gaming desktop PC for playing with all the optimization and the security explained here, but in both cases I use the right Windows firewall rules, for my laptop the simple rules and for my desktop the advanced rules, complementary I use the following programs
 Laptop PC: Edge, my-favours, Playcipe, Playtube, Playzer, Playtov, Playto, Playther, TextEditor, ms-paint, png2ico, Visual Studio, Visual Studio Code, rmoto, Epic Games website, Steam website, GitHub Desktop, USB storage device for files saving, logitech speakers, RecordYoutube, Youtube for upload
 Desktop PC: rmofo, StopIt, ChangeMAC, ChangeDNS, ciine, SIGIL, TextEditor, PAssist, battle.net, Steam, FlydigiPcSpace, InterceptionTest, Interception, vJoy, SCP, ViGEm, Devreorder, console controllers, GeForceExperience for streaming on Youtube, ffmpeg with command lines, custom overlays, webcam with microphone, HDMI screen
