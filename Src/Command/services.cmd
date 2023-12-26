@@ -1,4 +1,5 @@
-﻿sc config "KeyIso" start= auto
+﻿
+sc config "KeyIso" start= auto
 sc start "KeyIso"
 sc config "iphlpsvc" start= auto
 sc start "iphlpsvc"

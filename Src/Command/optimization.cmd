@@ -1,4 +1,5 @@
-﻿fsutil behavior set memoryusage 2
+﻿
+fsutil behavior set memoryusage 2
 bcdedit /set nolowmem off
 bcdedit /set nx alwayson
 bcdedit /set pae forceenable

@@ -1,4 +1,5 @@
-﻿Get-AppxPackage *xboxapp* | Remove-AppxPackage
+﻿
+Get-AppxPackage *xboxapp* | Remove-AppxPackage
 Get-AppxPackage *gamebar* | Remove-AppxPackage
 Get-AppxPackage *xboxgamebar* | Remove-AppxPackage
 Get-AppxPackage *xbox* | Remove-AppxPackage

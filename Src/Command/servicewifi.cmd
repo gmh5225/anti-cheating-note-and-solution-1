@@ -1,4 +1,5 @@
-﻿sc config "KeyIso" start= disabled
+﻿
+sc config "KeyIso" start= disabled
 sc stop "KeyIso"
 sc config "iphlpsvc" start= disabled
 sc stop "iphlpsvc"
