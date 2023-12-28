@@ -1,11 +1,11 @@
 ﻿- If you get an error of connection: 
 delete config files
-reinstall the game
+reinstall the game or check integrity of files
 reinitialize your PC
 Allow Windows firewall rules for all programs (distant ports 80 and 443 in TCP)
 - If your game crash
 allow more virtual ram
-add ram
+add physical ram
 uninstall redist frameworks and install recent ones
 - If your PC restart due to overheating
 apply fresh paste under your CPU
