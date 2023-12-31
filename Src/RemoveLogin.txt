@@ -1,0 +1,30 @@
+﻿How to remove Windows 11 Password Login, I want to make it so that no password is needed
+
+1) Disable password login on Windows
+
+1. In the search box next to the Start icon type netplwiz and click the top result to open the Control Panel applet.
+2. Under the “Users for this computer” section, select the account to remove its password.
+3. Clear the “User must enter a user name and password to use this computer” option.
+
+Note If the option is missing, follow these steps
+Open Settings > Accounts > Sign-in options and turn off the “For improved security, only allow Windows Hellow sign-in for Microsoft accounts on this device” option and reopen the netplwiz applet.
+
+4. Click the Apply button.
+5. Confirm the Microsoft account credentials to log in automatically.
+6. Click the OK button.
+7. Click the OK button again.
+
+2) Remove the password for the Microsoft account
+
+1. Open Settings then click on Accounts.
+2. Click the Your info tab.
+3. Under the Account settings section, click the “Sign in with a local account instead” option.
+4. Click the Next button.
+5. Confirm your current password.
+6. Click the Next button.
+7. Create a username for the account.
+8. Use blank for the “Password” and “Reenter password” options to remove the password entirely.
+9. Click the Next button.
+10. Click the “Sign out and finish” button.
+
+After you complete the steps, the laptop will no longer connect with a Microsoft account and will log you in automatically every time you start the system.
