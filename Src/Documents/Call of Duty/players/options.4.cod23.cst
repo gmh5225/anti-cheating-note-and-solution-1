@@ -29,10 +29,10 @@ DetectedMemoryAmountMB:0.0 = "8109"
 LastUsedGPU:0.0 = "NVIDIA GeForce GTX 1660"
 
 // DO NOT MODIFY. Last Detected GPU driver version
-GPUDriverVersion:0.0 = "53742 r537_41"
+GPUDriverVersion:0.0 = "54633 r545_00"
 
 // Version of the last display driver used to run the game
-DisplayDriverVersion:0.0 = "537.42"
+DisplayDriverVersion:0.0 = "546.33"
 
 // Recommended display driver version seen during last game startup
 DisplayDriverVersionRecommended:0.0 = "537.58"
@@ -197,7 +197,7 @@ WindowWidth:0.0 = "640" // 0 to 32767
 WindowHeight:0.0 = "400" // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized:0.0 = "true"
+WindowMaximized:0.0 = "false"
 
 // Monitor name of the monitor used to display the game
 Monitor:0.0 = "    DTV      "
