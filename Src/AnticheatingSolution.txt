@@ -32,6 +32,18 @@
 Get-ScheduledTask * | Unregister-ScheduledTask -Confirm:$false
 - Set modem/router firewall to allow all ports for your gaming PC but only port 80 and 443 in TCP for your other devices
 - Set firewall of your modem with rules for each of your PC, local IP: internal IP of your PC, mask: 255.255.255.255, local ports: 1024-65535, distant ports: 1-49151, protocoles: TCP/UDP
+- For your PC gaming, you just need the following rules to play Call of Duty (local ports -> distant ports)
+in TCP
+49152-65535 -> 80
+49152-65535 -> 443
+49152-65535 -> 1119
+49152-65535 -> 3074
+3074 -> 80
+3074 -> 443
+in UDP
+49152-65535 -> 3074
+3074 -> 3074
+3074 -> 30000-40000
 - Disable UPNP and IPv6 on your modem/router under network tab
 - Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU for better performances
 - Use Windows firewall rules, exploit protection and folder access against ransomeware as anti-cheat
