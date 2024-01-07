@@ -44,6 +44,12 @@ in UDP
 49152-65535 -> 3074
 3074 -> 3074
 3074 -> 30000-40000
+- For your laptop PC, you just need the following rules to browse internet (the last is for DNS client if you set one)
+in TCP
+49152-65535 -> 80
+49152-65535 -> 443
+in UDP
+49152-65535 -> 53
 - Disable UPNP and IPv6 on your modem/router under network tab
 - Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU for better performances
 - Use Windows firewall rules, exploit protection and folder access against ransomeware as anti-cheat
