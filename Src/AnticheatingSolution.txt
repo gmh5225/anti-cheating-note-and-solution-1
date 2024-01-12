@@ -97,7 +97,7 @@ ipconfig/release
 ipconfig/renew
 - Use secure DNS server of CloudFlare (1.1.1.1) over HTTPS from IPv4 manual settings and Windows parameters under network tab to enable encryption, or use other secure DNS server (Google 8.8.8.8, Quad9 9.9.9.9, etc), and change it often
 - DNS to not block if using NextDNS as DNS server
-cloudfront.net, callofduty.com, activision.com, battle.net, blizzard.com, demonware.net
+cloudfront.net, callofduty.com, activision.com, battle.net, blizzard.com, demonware.net, digicert.com
 - Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
 - Saving your games you add from Xbox application on a SSD needs it be formatted in NTFS format
 - Disable options of applications from Windows parameters, don't let it execute in background
