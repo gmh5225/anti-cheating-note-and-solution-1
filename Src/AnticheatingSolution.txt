@@ -96,8 +96,20 @@ netsh interface ipv4 set dns name="Wi-Fi" static 8.8.4.4 index=2
 ipconfig/release
 ipconfig/renew
 - Use secure DNS server of CloudFlare (1.1.1.1) over HTTPS from IPv4 manual settings and Windows parameters under network tab to enable encryption, or use other secure DNS server (Google 8.8.8.8, Quad9 9.9.9.9, etc), and change it often
-- DNS to not block if using NextDNS as DNS server
-cloudfront.net, callofduty.com, activision.com, battle.net, blizzard.com, demonware.net, digicert.com
+- DNS to not block if using NextDNS as DNS server to set in whitelist
+api.blizzard.com, eu.cdn.blizzard.com, level3.blizzard.com, level3.ssl.blizzard.com, eu.api.blizzard.com, www.callofduty.com, telescope.callofduty.com, prod.cdni.callofduty.com, prod-data-energon.infra-ext.activision.com, weezyblue-lobby.prod.demonware.net, jup-bnet-loginservice.prod.demonware.net, genesis.stun.us.demonware.net, genesis.stun.eu.demonware.net, digicert.com, cloudfront.net, battle.net
+- When you want to use NextDNS server, use it over https as following
+Open Windows parameters
+Go to Network & Internet
+Click Wi-Fi (or Ethernet)
+Click Hardware Properties, or skip this step if you clicked Ethernet
+Click the Edit button next to DNS Server Assignment
+Select Manual
+Enable IPv4
+Enter 45.90.28.0 as your preferred DNS, then select Enabled (manual model) and enter https://dns.nextdns.io/886e64
+Enter 45.90.30.0 as Alternate DNS, then select Enabled (manual model) and enter https://dns.nextdns.io/886e64
+Click Save
+- For setting security with NextDNS, go to https://my.nextdns.io/886e64/settings, add all security feature settings, add all TLD (first level domain) to block in settings
 - Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
 - Saving your games you add from Xbox application on a SSD needs it be formatted in NTFS format
 - Disable options of applications from Windows parameters, don't let it execute in background
