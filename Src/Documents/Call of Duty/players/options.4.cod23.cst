@@ -197,7 +197,7 @@ WindowWidth:0.0 = "640" // 0 to 32767
 WindowHeight:0.0 = "400" // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized:0.0 = "true"
+WindowMaximized:0.0 = "false"
 
 // Monitor name of the monitor used to display the game
 Monitor:0.0 = "    DTV      "
@@ -297,7 +297,7 @@ SSAOTechnique:0.0 = "Off" // one of [Off, GTAO, MDAO, GTAO & MDAO]
 SSRMode:0.0 = "Off" // one of [Off, Deferred LQ, Deferred HQ]
 
 // User preferred anti-aliasing technique
-AATechniquePreferred:0.2 = "Filmic SMAA T2x" // one of [Filmic SMAA T2x, XeSS, FSR 2/3]
+AATechniquePreferred:0.3 = "Filmic SMAA T2x" // one of [Filmic SMAA T2x, XeSS, FSR AA]
 
 // Reflection probe relighting update stages
 ReflectionProbeRelighting:0.0 = "2" // 1 to 4
@@ -315,10 +315,16 @@ DLSSFrameGeneration:0.0 = "false"
 XeSSQuality:0.0 = "Balanced" // one of [Maximum Performance, Balanced, Maximum Quality, Ultra Quality, Custom]
 
 // Select AMD FidelityFX
-AMDFidelityFX:0.0 = "Off" // one of [Off, CAS, FSR 1, FSR 2]
+AMDFidelityFX:0.0 = "Off" // one of [Off, CAS, FSR 1, FSR 3]
+
+// AMD FidelityFX Super Resolution quality
+AMDSuperResolutionQuality:0.0 = "Maximum Quality" // one of [Maximum Performance, Balanced, Maximum Quality, Ultra Quality]
 
 // Strength for Contrast Adaptive Sharpening (CAS)
 AMDContrastAdaptiveSharpeningStrength:0.0 = "0.500000" // 0.000000 to 1.000000
+
+// AMD FidelityFX Super Resolution 2 & 3 quality
+AMDSuperResolution2Quality:0.0 = "Maximum Quality" // one of [Ultra Performance, Maximum Performance, Balanced, Maximum Quality, Native Resolution]
 
 // Activate FSR 3 Frame Interpolation
 FSRFrameInterpolation:0.0 = "false"
@@ -373,6 +379,12 @@ GPUUploadHeaps:0.0 = "true"
 
 // If true radial motion blur will be applied based on the player velocity.
 EnableVelocityBasedBlur:0.0 = "true"
+
+// Pause rendering in Multiplayer when entering the pause menu or when out of focus to save power.
+SustainabilityPauseRendering:0.0 = "false"
+
+// Drop the dynamic scene resolution in non-interactive scenes to save power.
+SustainabilityMenuSceneResolution:0.0 = "min" // one of [off, min, full]
 
 //
 // Interface
@@ -429,6 +441,9 @@ GamepadMenuScrollDelayRestEnd:0.0 = "50" // 0 to 1000
 
 // Menu scroll key-repeat delay acceleration from start to end, for repeats after the first, in milliseconds per repeat
 GamepadMenuScrollDelayRestAccel:0.0 = "2" // 0 to 1000
+
+// User preferred anti-aliasing technique
+AATechniquePreferred:0.2 = "Filmic SMAA T2x" // one of [Filmic SMAA T2x, XeSS, FSR 2/3]
 
 // Number of output channels requested by the user. Valid values are 2, 4, 6, 8, 16. Zero means use system default.
 SoundWantedOutputDeviceNumChannels:0.0 = "0" // 0 to 16

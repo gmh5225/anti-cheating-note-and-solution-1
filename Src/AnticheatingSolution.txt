@@ -97,7 +97,7 @@ ipconfig/release
 ipconfig/renew
 - Use secure DNS server of CloudFlare (1.1.1.1) over HTTPS from IPv4 manual settings and Windows parameters under network tab to enable encryption, or use other secure DNS server (Google 8.8.8.8, Quad9 9.9.9.9, etc), and change it often
 - DNS to not block if using NextDNS as DNS server to set in whitelist
-api.blizzard.com, eu.cdn.blizzard.com, level3.blizzard.com, level3.ssl.blizzard.com, eu.api.blizzard.com, www.callofduty.com, telescope.callofduty.com, prod.cdni.callofduty.com, prod-data-energon.infra-ext.activision.com, weezyblue-lobby.prod.demonware.net, jup-bnet-loginservice.prod.demonware.net, genesis.stun.us.demonware.net, genesis.stun.eu.demonware.net, digicert.com, cloudfront.net, battle.net
+api.blizzard.com, eu.cdn.blizzard.com, level3.blizzard.com, level3.ssl.blizzard.com, eu.api.blizzard.com, www.callofduty.com, telescope.callofduty.com, prod.cdni.callofduty.com, prod-data-energon.infra-ext.activision.com, weezyblue-lobby.prod.demonware.net, jup-bnet-loginservice.prod.demonware.net, genesis.stun.us.demonware.net, genesis.stun.eu.demonware.net, objectstore-cloud-prod-jup.egcp.demonware.net, digicert.com, cloudfront.net, battle.net
 - When you want to use NextDNS server, use it over https as following
 Open Windows parameters
 Go to Network & Internet
