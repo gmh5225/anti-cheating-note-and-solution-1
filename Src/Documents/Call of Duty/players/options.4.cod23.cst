@@ -29,10 +29,10 @@ DetectedMemoryAmountMB:0.0 = "8109"
 LastUsedGPU:0.0 = "NVIDIA GeForce GTX 1660"
 
 // DO NOT MODIFY. Last Detected GPU driver version
-GPUDriverVersion:0.0 = "54633 r545_00"
+GPUDriverVersion:0.0 = "55123 r551_06"
 
 // Version of the last display driver used to run the game
-DisplayDriverVersion:0.0 = "546.33"
+DisplayDriverVersion:0.0 = "551.23"
 
 // Recommended display driver version seen during last game startup
 DisplayDriverVersionRecommended:0.0 = "537.58"
