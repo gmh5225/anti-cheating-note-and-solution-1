@@ -220,6 +220,10 @@ tcp 6 TCP # Transmission control protocol
 udp 17 UDP # User datagram protocol
 Empty all other files in in C:/Windows/System32/drivers/etc
 - Disable bitlocker (volume cryptography against stolen device) from confidentiality and security under Windows parameters, and use Autoruns64.exe with safe mode boot option of your PC (msconfig.exe to open with Run.exe from shortcut Win + R) to disable WinDefender service (delete entry) and Edge update, starting at PC boot, it's a tool of Microsoft
+- If some settings are missing, try to repair your PC with the following cmd.exe commands
+DISM.exe /Online /Cleanup-image /Restorehealth
+sfc /scannow
+chkdsk C: /f
 - Personally I use a cheap laptop PC for working with Wi-Fi, just disabling some services and Appx packages, and a expensive gaming desktop PC for playing with all the optimization and the security explained here, but in both cases I use the right Windows firewall rules, for my laptop the simple rules and for my desktop the advanced rules, complementary I use the following programs
 Laptop PC: StopIt, Edge, my-favours, Playcipe, Playtube, Playzer, Playtov, Playto, Playther, TextEditor, ms-paint, png2ico, Visual Studio, Visual Studio Code, rmoto, Epic Games website, Steam website, GitHub Desktop, USB storage device for files saving, logitech speakers, RecordYoutube, Youtube for upload
 Desktop PC: rmofo, StopIt, ChangeMAC, ChangeDNS, ciine, SIGIL, TextEditor, PAssist, battle.net, Steam, FlydigiPcSpace, InterceptionTest, Interception, vJoy, SCP, ViGEm, Devreorder, console controllers, GeForceExperience for streaming on Youtube, ffmpeg with command lines, custom overlays, webcam with microphone, HDMI screen
