@@ -1,4 +1,4 @@
-﻿- If you get an error of connection: 
+﻿- If you get an error of connection
 delete config files
 reinstall the game or check integrity of files
 reinitialize your PC
@@ -12,3 +12,6 @@ apply fresh paste under your CPU
 clean your PC with pencils and vacuum cleaner especially the fans
 update drivers and bios with Windows update
 upgrade your graphic card and power supply
+- If you get black screen
+update your graphic card driver
+upgrade your HDMI wire
