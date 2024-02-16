@@ -223,7 +223,7 @@ Empty all other files in in C:/Windows/System32/drivers/etc
 - If some settings are missing, try to repair your PC with the following cmd.exe commands
 DISM.exe /Online /Cleanup-image /Restorehealth
 sfc /scannow
-chkdsk C: /f
+chkdsk C: /f /r
 - Never use third party tools, and in particular from unofficial sources, it's often virus or write and read in your PC like kind of virus, it's harmless, but don't trust noobs saying optimization of your PC is useless, they try optimization with low asking ressource games and with a high end PC, optimization is also securing your PC and with time your PC is feeling better, my tutorial here is complete in terms of optimization and security as far as I can
 - Personally I use a cheap laptop PC for working with Wi-Fi, just disabling some services and Appx packages, and a expensive gaming desktop PC for playing with all the optimization and the security explained here, but in both cases I use the right Windows firewall rules, for my laptop the simple rules and for my desktop the advanced rules, complementary I use the following programs
 Laptop PC: StopIt, Edge, my-favours, Playcipe, Playtube, Playzer, Playtov, Playto, Playther, TextEditor, ms-paint, png2ico, Visual Studio, Visual Studio Code, rmoto, Epic Games website, Steam website, GitHub Desktop, USB storage device for files saving, logitech speakers, RecordYoutube, Youtube for upload
