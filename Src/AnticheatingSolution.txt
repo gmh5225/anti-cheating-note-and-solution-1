@@ -199,7 +199,7 @@ nvcontainer.exe, NVDisplay.Container.exe, NVIDIA GeForce Experience.exe, NVIDIA 
 - You need to know the effects of the keys ctrl, shift, double click, and shortcuts ctrl+a, ctrl+c, ctrl+v, ctrl+x, ctrl+s
 - Lower Call of Duty graphisms to the minimum for the best fluidity, disable useless features in other game options like textchat and microphone, set streaming mode on, and no public acces to match in order no one can join you like cheaters
 - Under Windows parameters, for games, from graphical option, add Call of Duty to high performance used for graphic card
-- When you save your files under a USB storage device, if you asked to copy without file parameters, say always yes copy the file, otherwise the file will disappear
+- When you save your files under a USB storage device, if you asked to copy without file parameters, say always yes copy the file, otherwise the file will disappear, but best to copy from USB storage device to your computer disk for not be annoying anymore
 - Grant acces to folder of Call of Duty only for adminstrators with the following powershell command
 icacls "D:\Battlenet Games" /inheritance:r /grant Administrators:F
 or if you can't, you need to install the game under C: disk, or just change permissions of folder with properties allowing owner administrator, or admistrators, and disable heriting, and then convert permissions to explicit, and so disable permission of user(s) for modification and all others things like execution or write, it's because hackers are modifying the following files:
