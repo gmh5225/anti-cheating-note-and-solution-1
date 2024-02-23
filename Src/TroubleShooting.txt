@@ -15,3 +15,4 @@ upgrade your graphic card and power supply
 - If you get black screen
 update your graphic card driver
 upgrade your HDMI wire
+set to default your Windows or modem firewalls for game updates
