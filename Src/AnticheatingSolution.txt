@@ -6,7 +6,7 @@
 - Create shortcuts in task bar for advanced Windows firewall settings and ressource monitor (perfmon.exe), and on desktop for Ethernet card, and Powershell
 - Set to higher level UAC (User Account Control) from control panel
 - Enabling UAC to highest level is allowing to know if battle.net is launched as admin and so games, and so restart battle.net until it's not running as admin
-- Uninstall every apps and disable every features from Windows parameters and functionnalities, let only drivers of graphic, audio, and ethernet cards, redistributable frameworks (x86), and Bluetooth, remove all the rest like Intel drivers, PhysX, XNA framework, etc
+- Uninstall every apps and disable every features from Windows parameters and functionnalities, let only drivers of graphic, audio, and ethernet cards, and redistributable frameworks (x86), but remove all the rest like Intel drivers, PhysX, XNA framework, Wireless WiFi and Bluetooth, etc
 - Disable all functionnalites but let frameworks 3.5 and 4.8 from programs and functionnalities under control panel
 - Disable automatic reorganization of icons under the desktop screen
 - Uninstall all redistributable packages and install redistributable package found on Microsoft official website, only the last x86 version
