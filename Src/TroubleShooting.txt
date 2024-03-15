@@ -3,6 +3,7 @@ delete config files
 reinstall the game or check integrity of files
 reinitialize your PC
 Allow Windows firewall rules for all programs (distant ports 80 and 443 in TCP)
+use cmd dos prompt command ipconfig/renew setting Windows firewall and modem/router firewall with default rules
 - If your game crash
 allow more virtual ram
 add physical ram
