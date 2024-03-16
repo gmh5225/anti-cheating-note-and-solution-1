@@ -18,3 +18,6 @@ update your graphic card driver
 upgrade your HDMI wire
 set to default your Windows or modem firewalls or DNS servers for game updates
 check integrity of files with your game launcher
+- If your desktop icons are freeze
+open powershell run as administrator and execute the following command: Get-AppxPackage *widgets* | Remove-AppxPackage
+execute again explorer.exe fron task manager
