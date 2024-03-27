@@ -1,4 +1,5 @@
-﻿- Press shift and click at same time on restart to refresh your PC from factory
+﻿- You can't break your PC by tweaking it for security and optimization, it's always possible to repair it
+- Press shift and click at same time on restart to refresh your PC from factory
 - Don't wire ethernet and disable every features when you refreshing your PC
 - Set your prefered screen color for desktop and task bar
 - Disable features of task bar and notifications
