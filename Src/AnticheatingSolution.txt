@@ -175,9 +175,16 @@ Get-ProcessMitigation -RegistryConfigFilePath C:\ExploitConfigfile.xml
 Set-ProcessMitigation -PolicyFilePath C:\ExploitConfigfile.xml
 then add/delete dllhost.exe manually from exploit protection otherwise you won't be able to install or uninstall programs and to have administrative rights, and other stuffs like that, you also need to disconnect/connect your session to take effect
 - Use the following commands of Powershell run with administrative privilege to uninstall useless Windows packages
+Get-AppxPackage *WebExperience* | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxIdentityProvider | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxSpeechToTextOverlay | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxGameOverlay | Remove-AppxPackage
 Get-AppxPackage * | Remove-AppxPackage
 - Use the following commands of Powershell run with administrative privilege to repair Windows packages
 Get-AppxPackage * | Reset-AppxPackage
+Get-AppxPackage *notepad* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Get-AppxPackage *paint* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 - You can force ASLR if you play only Call of Duty with Battle.net by using the regedit key MoveImages:
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\ add the DWORD 32 bits value "MoveImages" and allocate a hex value of ffffffff
