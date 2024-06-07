@@ -1,2 +1,2 @@
-sc config WpnUserService_2c109 start= disabled
-sc stop WpnUserService_2c109
+sc config WpnUserService_22583 start= disabled
+sc stop WpnUserService_22583

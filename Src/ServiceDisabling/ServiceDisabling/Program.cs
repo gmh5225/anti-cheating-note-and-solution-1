@@ -56,7 +56,7 @@ namespace ServiceDisabling
                             createdfile.WriteLine(@"sc stop " + ServiceName);
                         }
                         startInfo = new ProcessStartInfo("sdservdisabling.cmd");
-                        startInfo.WindowStyle = ProcessWindowStyle.Normal;
+                        startInfo.WindowStyle = ProcessWindowStyle.Hidden;
                         Process.Start(startInfo);
                         Console.WriteLine("");
                     }
