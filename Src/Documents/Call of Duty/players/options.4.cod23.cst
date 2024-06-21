@@ -176,10 +176,10 @@ MapLocationSelectionCursorSpeedMouse:0.0 = "0.600000" // 0.001000 to 2.000000
 //
 
 // Fullscreen mode
-DisplayMode:0.0 = "Windowed" // one of [Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
+DisplayMode:0.0 = "Fullscreen" // one of [Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
 
 // Fullscreen mode preference
-PreferredDisplayMode:0.0 = "Fullscreen borderless window" // one of [Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
+PreferredDisplayMode:0.0 = "Fullscreen" // one of [Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window]
 
 // Constrain mouse to game window
 ConstrainMouse:0.0 = "false"
@@ -191,10 +191,10 @@ WindowX:0.0 = "0" // -32768 to 32767
 WindowY:0.0 = "0" // -32768 to 32767
 
 // Window width
-WindowWidth:0.0 = "1360" // 0 to 32767
+WindowWidth:0.0 = "1344" // 0 to 32767
 
 // Window height
-WindowHeight:0.0 = "768" // 0 to 32767
+WindowHeight:0.0 = "729" // 0 to 32767
 
 // Window is maximized on boot
 WindowMaximized:0.0 = "false"
