@@ -1,4 +1,4 @@
-WlanSvc
+﻿WlanSvc
 Winmgmt
 TrkWks
 TokenBroker
@@ -126,6 +126,29 @@ camsvc
 AppXSvc
 Appinfo
 AppIDSvc
+XboxGipSvc
+XblAuthManager
+DiagTrack
+GamingServicesNet
+GamingServices
+InstallService
+FontCache
+wisvc
+LicenseManager
+W32Time
+WdiServiceHost
+GameInputSvc
+XboxNetApiSvc
+seclogon
+WpcMonSvc
+
+
+
+
+
+
+
+
 
 
 
