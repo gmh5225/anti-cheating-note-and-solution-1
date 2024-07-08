@@ -235,6 +235,9 @@ sfc /scannow
 chkdsk C: /f /r
 - If you have explorer.exe task memory leak you can end task with task manager (Ctrl+shift+esc) and execute it again with the button at top of task manager, then in the tab you just have to type explorer.exe and check the box administrator privilege, and then hit the button execute
 - Choose a high DPI mouse above 4000, because your aiming will be accurate in center, fast at edge, and you will adjust ennemies moving more easily
+- You can remove the symbol shortcut from your desktop icons with the regedit entry you create named Shell Icons as following:
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons
+key name: 29, string value: %windir%\System32\shell32.dll,-50
 - Never use third party tools, and in particular from unofficial sources, it's often virus or write and read in your PC like kind of virus, it's harmless, but don't trust noobs saying optimization of your PC is useless, they try optimization with low asking ressource games and with a high end PC, optimization is also securing your PC and with time your PC is feeling better, my tutorial here is complete in terms of optimization and security as far as I can
 - When you refresh your PC, set country to US, set language to United Kingdom, and set your right keyboard layout
 - For using Xbox app, you need to remove all programs from exploit protection, you can remove all Appx packages but Xbox app will ask you to install some of these packages you need to install, and you can use my ServiceDisabling.exe for stop and disable all useless services but you need before to reenable services with my cmd prompt command in services.cmd
