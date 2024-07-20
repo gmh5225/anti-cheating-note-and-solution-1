@@ -49,6 +49,7 @@ in TCP
 49152-65535 -> 443
 in UDP
 49152-65535 -> 53
+- XDefiant is asking to allow all local and distant ports in TCP/UDP for outbound traffic (1-65535), and maybe to open a NAT/PAT rule for port 3074 in TCP/UDP for inbound traffic
 - Disable UPNP and IPv6 on your modem/router under network tab
 - Download NVidia drivers under Nvidia official website but in my case I prefer to not update my GPU for better performances
 - Use Windows firewall rules, exploit protection and folder access against ransomeware as anti-cheat
